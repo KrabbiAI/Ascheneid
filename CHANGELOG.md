@@ -4,10 +4,63 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.3] – 2026-10-11 – Am besten mit Controller
+
+### Neu
+- **Controller-Empfehlung beim Start:** Eine eigene Tafel in der Startsequenz empfiehlt, mit Controller zu
+  spielen. Ist schon einer angeschlossen oder läuft das Spiel auf dem Steam Deck, bestätigt sie ihn
+  („Steam Deck erkannt – du bist bereit.“), sonst nennt sie, welche erkannt werden. Tastatur und Maus
+  bleiben ausdrücklich erlaubt; jede Taste überspringt die Startsequenz wie bisher.
+
+### Änderungen
+- README, Changelog und Release-Texte beschreiben die Spielsysteme für sich, ohne andere Spiele zu nennen.
+
+### Technik
+- Der Steuerungstest prüft, dass die Tafel in der Startsequenz voll eingeblendet wird, bevor der Titel kommt.
+
+## [0.8.2] – 2026-10-11 – Neue Versionen
+
+### Neu
+- **Updates aus dem Spiel heraus:**
+  - Beim Start schaut das Spiel im Hintergrund nach, ob es eine neue Version gibt. Der Start wartet
+    nie darauf.
+  - Gibt es eine, fragt das Titelmenü: „Ascheneid v… ist erschienen. Jetzt herunterladen?“, mit Größe
+    und **Herunterladen** oder **Später**. Ohne Zustimmung wird nichts geladen.
+  - Ein **Downloadbalken** zeigt Prozent und Megabyte. Man kann währenddessen im Menü bleiben oder
+    losspielen.
+  - Danach steht im Menü **Neu starten und aktualisieren** (Linux und Steam Deck: **Beenden und
+    aktualisieren**, damit Steam das Spiel nicht aus dem Blick verliert). Sonst wird beim Beenden
+    installiert.
+  - Jedes System bekommt sein eigenes Zip. Vor der Installation werden Größe und SHA-256-Prüfsumme
+    mit GitHub abgeglichen und der Inhalt geprüft: ein Windows-Programm für Windows, ein Linux-Programm
+    für x86_64, eine Mac-App für macOS. Ein vertauschter oder beschädigter Download wird verworfen.
+  - Spielstände und Einstellungen bleiben unberührt; Dateinamen und Verknüpfungen bleiben gleich.
+  - Nach „Später“ bleibt im Menü der Knopf **Update herunterladen**; gefragt wird erst beim nächsten
+    Start wieder.
+  - Abschalten unter *Optionen → Spiel → Nach Updates suchen* (dann keine Verbindung ins Netz).
+  - Auf dem Mac muss die App in einem beschreibbaren Ordner liegen, etwa in *Programme*; sonst gibt
+    es nur einen Hinweis.
+- **Wichtig:** Der Updater steckt ab dieser Version im Spiel. Ältere Versionen einmal von Hand durch
+  v0.8.2 ersetzen, danach geht es aus dem Spiel heraus.
+
+### Behoben
+- Inventar: Nach dem Belegen eines Platzes in der Schnellleiste hatte für einen Moment nichts den Fokus.
+  Ein Controller-Druck genau dann ging verloren; jetzt bleibt der Fokus ohne Lücke auf dem Platz.
+
+### Technik
+- Neuer **Updater-Test** (37 Prüfungen): Versionen, Wahl des Zips je System, vertauschte Zips,
+  Prüfsumme, Nachfrage und Balken im Titel, und das echte Austauschskript in einem Probeordner. Er
+  läuft in der GitHub Action unter Linux und in einem eigenen Job auf einem Mac.
+- **Windows Ende zu Ende** (`tests/updater_e2e_windows.ps1`): baut das Spiel, lässt es das neueste
+  Release vom öffentlichen Repo laden, drückt im Titel den echten Knopf „Herunterladen“, installiert,
+  startet neu und vergleicht die Dateien Byte für Byte mit dem Release.
+- Die Action bricht ab, wenn Tag und Spielversion nicht zusammenpassen. Sonst würde der Updater
+  immer wieder dieselbe Version laden.
+
 ## [0.8.1] – 2026-10-11 – Erwachen und Thron
 
 ### Neu
-- **Spielstände wie in Elden Ring:** zehn Plätze, je einer pro Figur. Einstellungen und Tastenbelegung
+- **Zehn Spielstände,** je einer pro Figur. Einstellungen und Tastenbelegung
   gelten für alle.
   - **Fortsetzen** lädt den zuletzt gespielten Stand; darunter steht, wo man weitermacht
     (Platz, Stufe, Ort, Spielzeit).
@@ -31,7 +84,7 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
     in Level 1, ohne Sturz. „Fortsetzen“ mitten in der Einführung beginnt sie in der Gruft des
     Erwachens von vorn.
 - **Der Thronsaal als eigener Ort:**
-  - **Abgetrennt wie in Dark Souls:** Statt der Balkonbrüstung eine geschlossene Wand mit einem
+  - **Klar abgetrennt:** Statt der Balkonbrüstung eine geschlossene Wand mit einem
     vergitterten Bogenfenster. Die Freitreppe führt durch ein Treppenhaus zu einem Torbogen, den die
     Nebelwand ausfüllt. Von außen gibt es keinen Blick mehr in die Arena.
   - **Eine eigene Welt:**
@@ -86,12 +139,12 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
     - deckt Scheinmauern auf, zerbricht Kisten und weckt die Gierige Truhe ohne Überraschungsbiss
   - **Zielen:** Das Messer fliegt aufs fixierte Ziel, sonst auf den nächsten Gegner (oder die nächste
     Kiste) im Blick. Der Schild bleibt in der linken Hand, Blocken und Parieren gehen weiter.
-- **Schnellleiste wie in Minecraft:** vier Plätze für Schwert & Schild, Zweihänder und Wurfmesser.
+- **Schnellleiste:** vier Plätze für Schwert & Schild, Zweihänder und Wurfmesser.
   - **C** bzw. **Steuerkreuz rechts** rotiert vorwärts, **X** bzw. **Steuerkreuz links** zurück; dazu
     Mausrad und die Tasten **1–4**.
   - Leere Plätze und Messer ohne Vorrat werden übersprungen.
   - Beim Wechseln blendet die Leiste kurz im HUD ein; unten links steht, was man in der Hand hält.
-- **Inventar wie in Elden Ring** (**I** bzw. **Ansicht/Create**, oder über das Pausemenü):
+- **Inventar mit Reitern und Detailtafel** (**I** bzw. **Ansicht/Create**, oder über das Pausemenü):
   - Das Spiel pausiert, der Hintergrund dunkelt weich ab.
   - **Reiter** Ausrüstung, Gegenstände und Schätze, umschalten mit L1/R1 bzw. Q/E.
   - **Ausrüstung:** Schnellleiste frei anordnen, Ringe anlegen. Mit der Maus geht das auch per Ziehen
@@ -137,7 +190,7 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
 - **Controller-Unterstützung:** Xbox-, PlayStation- und Steam-Deck-Controller (dazu Switch) werden
   automatisch erkannt. Hinweise, Tutorial, Optionen und Pausemenü zeigen die passenden
   **Tastensymbole** (Kenney Input Prompts, CC0).
-- **Belegung wie Elden Ring:** Kreis/B kurz tippen = Dash, gedrückt halten = Sprint; Dreieck/Y
+- **Belegung nach Soulslike-Standard:** Kreis/B kurz tippen = Dash, gedrückt halten = Sprint; Dreieck/Y
   interagiert, Quadrat/X trinkt, R1/R2 greifen an, L1 blockt, L2 pariert, R3 fixiert.
 - **Pausemenü mit Steuerung:** Esc bzw. Start hält das Spiel an, der Hintergrund dunkelt weich ab
   und verschwimmt. Rechts steht die Steuerung für das Gerät, das du gerade benutzt, mit eigener
