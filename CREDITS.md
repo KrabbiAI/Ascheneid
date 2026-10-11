@@ -41,6 +41,10 @@ Nach OGG konvertiert und lautheitsnormalisiert (`assets/audio/music/`).
 - Aschewirbel (Brummen, Sog, Aufprall) und Mimik (Knurren, Zuschnappen, Atem): eigens mit ffmpeg
   synthetisiert bzw. aus Kenney-Klängen gemischt (`assets/audio/fx/`)
 
+## Tastensymbole – CC0
+- Kenney Input Prompts 1.5 (Xbox, PlayStation, Steam Deck, Switch) – [kenney.nl](https://kenney.nl) –
+  Auswahl in `assets/ui/prompts/`
+
 ## Schriften – SIL Open Font License 1.1
 - Cinzel & Cinzel Decorative – Natanael Gama
 - EB Garamond – Georg Duffner, Octavio Pardo

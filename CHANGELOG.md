@@ -4,6 +4,57 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.7.2] – 2026-10-11 – Der Eid des Ungebrannten
+
+### Neu
+- **Aldrics Quest:** Ser Aldric sitzt jetzt mitten im Level, oben an der Galerietreppe, mit
+  Glut und Licht neben sich. Er gibt dir den **Kerkerschlüssel** und schickt dich zu Hrodgar, der
+  sein Eidsiegel gestohlen hat.
+  - Eine ruhige **Kamerafahrt** zeigt dir das Ziel: die Treppe hinunter zum Kerkertor, an dem du
+    vorhin schon vorbeigekommen bist.
+  - Das **Kerkertor** öffnet sich nur mit dem Schlüssel. Hrodgar wartet jetzt dahinter in einer
+    eigenen Kammer; die alte Kammer hinter der Scheinmauer ist ein geheimes Beutelager mit Truhe.
+  - Fällt Hrodgar, erscheint **„ALDRICS GEIST IST FREI“**. An Aldrics Platz bleiben nur Rüstung
+    und Schild zurück.
+  - Vor dem Nebel liegt ein goldenes **Rufzeichen**, das man nicht übersehen kann: Lichtschacht,
+    Glut und ein leises Flüstern. Wer es ignoriert, hört einmal: „Vergiss mich nicht, Ungebrannter.“
+  - **Aldric kämpft mit:** Er erhebt sich als goldener Phantomritter, folgt dir durch den Nebel und
+    kämpft mit Schwert und Schild. Er weicht aus, blockt und zieht die Aufmerksamkeit des Wächters
+    auf sich. Sein Lebensbalken steht im HUD. Der Wächter hat dafür rund 25 % mehr Leben.
+  - Das Glutfeuer im Vorhof leuchtet heller und ist die letzte Rast vor dem Boss.
+- **Controller-Unterstützung:** Xbox-, PlayStation- und Steam-Deck-Controller (dazu Switch) werden
+  automatisch erkannt. Hinweise, Tutorial, Optionen und Pausemenü zeigen die passenden
+  **Tastensymbole** (Kenney Input Prompts, CC0).
+- **Belegung wie Elden Ring:** Kreis/B kurz tippen = Dash, gedrückt halten = Sprint; Dreieck/Y
+  interagiert, Quadrat/X trinkt, R1/R2 greifen an, L1 blockt, L2 pariert, R3 fixiert.
+- **Pausemenü mit Steuerung:** Esc bzw. Start hält das Spiel an, der Hintergrund dunkelt weich ab
+  und verschwimmt. Rechts steht die Steuerung für das Gerät, das du gerade benutzt, mit eigener
+  Tastenbelegung oder den Symbolen deines Controllers.
+- **Linux und Steam Deck:** Neuer Download `Ascheneid-Linux.zip`. Auf dem Steam Deck startet das
+  Spiel im Vollbild mit einer Grafikstufe für den Akku (60 Bilder pro Sekunde, FSR).
+
+### Behoben
+- **Nach einem Dash blieb die Figur in der Laufpose hängen.** Angriffe und der erhobene Schild waren
+  danach nicht mehr zu sehen, und es wirkte, als könne man nicht mehr kämpfen. Ursache: Der Dash
+  spielt eine Laufschleife als einmalige Aktion ab, und eine Schleife endet nie von selbst. Jetzt
+  wird jede Aktion nach ihrer Zeit ausdrücklich beendet. Dasselbe betraf den Gang durch den Nebel.
+- **Sprungangriffe trafen nie:** Der Sprungschlag der Skelettsoldaten, Hrodgars Sprung und der Satz
+  der Gierigen Truhe kamen aus ihrer eigenen Mindestentfernung nicht an. Ausfallschritte setzen jetzt
+  sofort ein und reichen genau so weit wie nötig.
+- **Die Stoßwelle des Knochensehers** verfehlte, weil er schon vor dem Knall zurücksprang. Jetzt
+  springt er danach.
+- **Ausgewichene Geschosse** fliegen jetzt durch dich hindurch, statt an dir zu zerplatzen.
+
+### Technik
+- **Neuer Test „Ausweichen und Parieren“:** Gegen jeden Angriff jedes Gegners (Soldat, Schleicher,
+  Ritter, Seher, Übungswächter, Hrodgar in beiden Phasen, der Wächter in beiden Phasen, die Gierige
+  Truhe) wird über echte Eingaben gedasht und pariert. Geprüft wird, dass der Angriff ohne Reaktion
+  trifft, der Dash ausweicht, parierbare Angriffe pariert werden und rote nicht. Danach darf keine
+  Animation hängen bleiben, und Angriff und Block müssen sichtbar sein. Der Test hätte den Dash-Fehler
+  gefunden.
+- Weitere neue Tests: Aldrics Quest, Bot-Durchlauf mit Aldric, Controller und Pausemenü.
+- Die README verrät das Ende nicht mehr. Der Boss-Clip zeigt einen echten Kampf mit Aldric.
+
 ## [0.7.1] – 2026-10-11 – Unter der Haube
 
 ### Neu
