@@ -4,6 +4,73 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.1] – 2026-10-11 – Erwachen und Thron
+
+### Neu
+- **Spielstände wie in Elden Ring:** zehn Plätze, je einer pro Figur. Einstellungen und Tastenbelegung
+  gelten für alle.
+  - **Fortsetzen** lädt den zuletzt gespielten Stand; darunter steht, wo man weitermacht
+    (Platz, Stufe, Ort, Spielzeit).
+  - **Spiel laden** zeigt links die Liste, rechts eine Tafel mit Ort (letztes Glutfeuer), Spielzeit,
+    Durchgang (Neues Spiel+), Toden und Datum.
+  - **Neues Spiel** nimmt den ersten freien Platz. Sind alle belegt, wählt man einen aus; überschrieben
+    wird nur nach Nachfrage.
+  - **Löschen** mit Dreieck/Y bzw. Entf, mit Nachfrage. Der Fokus steht dabei sicherheitshalber auf
+    „Zurück“.
+  - Ein durchgespielter Stand bietet beim Auswählen „Fortsetzen“ oder „Neues Spiel+“.
+  - Der bisherige Spielstand wird beim ersten Start automatisch zu Platz 1.
+- **Die Gruft des Erwachens:** Die Einführung ist jetzt ein eigener kleiner Ort.
+  - Man erwacht im offenen Sarg, lernt in der Halle der Prüfung die Grundlagen, dann hebt sich ein
+    Gitter zur **Siegelkammer**.
+  - Tritt man auf das Siegel der Eidritter, brüllt etwas tief unten, die Gruft bebt immer stärker,
+    die Glutrisse lodern auf, und **der Boden bricht ein**.
+  - Man erwacht in Level 1 auf dem Schutt unter einem Lichtschacht: „Der Boden gab nach. Kein Weg
+    führt zurück.“ Steht man auf, erklärt ein Hinweis das erste Glutfeuer (nur im Startgebiet, nie mitten
+    in einer Zwischensequenz).
+  - Ohne Einführung, mit „Einführung überspringen“ im Pausemenü und in Neues Spiel+ beginnt man direkt
+    in Level 1, ohne Sturz. „Fortsetzen“ mitten in der Einführung beginnt sie in der Gruft des
+    Erwachens von vorn.
+- **Der Thronsaal als eigener Ort:**
+  - **Abgetrennt wie in Dark Souls:** Statt der Balkonbrüstung eine geschlossene Wand mit einem
+    vergitterten Bogenfenster. Die Freitreppe führt durch ein Treppenhaus zu einem Torbogen, den die
+    Nebelwand ausfüllt. Von außen gibt es keinen Blick mehr in die Arena.
+  - **Eine eigene Welt:**
+    - höhere Wände, keine Fackeln, nur Feuerschalen und ein großer Lichtfall auf den Thron
+    - aschebedeckter Boden mit glühenden Rissen, in der Mitte das Siegel der Eidritter
+    - tiefrote Banner der Eidritter; im übrigen Level hängen jetzt braune, Rot gibt es nur hier
+    - sechs aschfahle Eidritter an den Wänden, ein Feld zerbrochener Klingen ums Podest, fallende Asche
+  - **Stimmung:** Beim Eintreten werden die Farben blasser und härter, statt Musik weht Wind durch das
+    offene Dach.
+  - **Auftritt:** Der Wächter sitzt auf seinem Thron oben auf einem Podest, erwacht, brüllt und
+    **springt herab** in den Kampf. Beim zweiten Versuch nur noch der Sprung.
+  - **Phase 2:** Die Glutrisse im Boden und das Siegel lodern auf.
+  - Der Aschewirbel öffnet sich am Ende auf dem Podest vor dem Thron.
+
+### Änderungen
+- Die kurze Säule mitten im Thronsaal ist fort: Vom Nebel bis zum Thron führt ein freier Gang.
+- Der Gang durch den Nebel ist etwas länger, die Kamera steht danach schon in der Halle statt im
+  Nebel.
+- Level 1 hat kein Fallgitter und keine Übungspuppe mehr. In der Einführung entfällt der
+  Glutfeuer-Schritt (der Hinweis kommt jetzt in Level 1), und der Schritt „Rolle“ heißt „Ausweichen“.
+- Der Knopf „Neues Spiel+“ im Titelmenü ist in die Auswahl eines durchgespielten Stands gewandert.
+
+### Behoben
+- Stand die Figur beim Betreten des Nebels noch auf der untersten Stufe, schwebte und ruckelte sie
+  durch den Torbogen. Jetzt steigt sie sauber herab, und die Kamera bleibt dabei hinter ihr.
+
+### Technik
+- **Parallele Tests:** `tools/run_tests.sh` startet alle Suiten gleichzeitig (der Ausweich- und
+  Paradetest in neun Teilen). Der volle Durchlauf dauert lokal rund 3 statt 25 Minuten. Jede Suite
+  schreibt in einen eigenen Ordner, auch für Einstellungen; die echten Dateien bleiben unberührt.
+- In der GitHub Action laufen die Suiten als Matrix gleichzeitig; gebaut wird erst, wenn alle grün sind.
+- Neue Tests:
+  - **Spielstände** (36 Prüfungen): anlegen, laden, löschen und überschreiben mit Nachfrage, Migration,
+    Neues Spiel+, Bedienung mit Controller und Tastatur, Aufbau im echten Titelbildschirm.
+  - **Thronsaal** (16 Prüfungen): 8100 Sichtlinien von Balkon, Vorhof und Treppe, Kamera beim Gang
+    durch den Nebel, Auftritt vom Thron, Stimmung, Phase 2.
+  - Die Einführung testet jetzt auch Einsturz, Ankunft auf dem Schutt und das Überspringen; der
+    Begehbarkeitstest läuft durch die Gruft des Erwachens und hinauf aufs Podest.
+
 ## [0.8.0] – 2026-10-11 – Klinge und Ring
 
 ### Neu

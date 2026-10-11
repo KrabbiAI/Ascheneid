@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.0-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.1-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/media/trailer.gif" alt="Parade, Dash, Wurfmesser, Scheinmauer, Hrodgar, Aldrics Rückkehr, der Gefallene Wächter" width="760">
+  <img src="docs/media/trailer.gif" alt="Der Boden bricht ein, Parade, Dash, Wurfmesser, Scheinmauer, Hrodgar, Aldrics Rückkehr, der Wächter auf seinem Thron, Phase zwei" width="760">
 </p>
 
 ---
@@ -39,12 +39,12 @@ Einst brannte die Glut in allen Dingen, und die **Ritter des Eides** hüteten ih
 Geschlecht um Geschlecht. Dann erlosch sie. Die Ritter fielen, einer nach dem anderen. Nur der
 **Wächter** blieb auf seinem Thron, gehalten von einem Eid, der älter ist als sein Fleisch.
 
-Du erwachst als *Ungebrannter* in einem offenen Sarg, tief in der Gruft. Vor dir liegen
-Hallen voller Gebeine, Mauern, die lügen, eine Truhe, die atmet, und am Ende ein Nebel, hinter
-dem der Tod wartet.
+Du erwachst als *Ungebrannter* in einem offenen Sarg, tief in der Gruft. Unter dir schläft etwas,
+das ein altes Siegel nicht mehr lange hält. Vor dir liegen Hallen voller Gebeine, Mauern, die lügen,
+eine Truhe, die atmet, und am Ende ein Nebel, hinter dem ein Thron wartet.
 
-**Ascheneid** ist eine abgeschlossene Demo mit Intro-Cinematic, geführter Einführung, einem Gebiet
-voller Geheimnisse, einer Quest um einen gefallenen Ritter, einem Mini-Boss, einem zweiphasigen Endboss und einem
+**Ascheneid** ist eine abgeschlossene Demo mit Intro-Cinematic, einer Einführung in ihrer eigenen
+kleinen Gruft, einem Gebiet voller Geheimnisse, einer Quest um einen gefallenen Ritter, einem Mini-Boss, einem zweiphasigen Endboss und einem
 Finale, das eine Tür offen lässt.
 
 <br clear="right">
@@ -53,7 +53,16 @@ Finale, das eine Tür offen lässt.
 
 <table>
   <tr>
-    <td width="52%"><img src="docs/media/parry.gif" alt="Parade und kritischer Stoß" width="460"></td>
+    <td width="52%"><img src="docs/media/collapse.gif" alt="Auf dem Siegel glühen die Risse auf, der Boden bricht ein, die Figur erwacht unten auf dem Schutt" width="460"></td>
+    <td>
+      <h3>Ein Anfang, der dich fallen lässt</h3>
+      Die Einführung ist ein eigener kleiner Ort: die <b>Gruft des Erwachens</b>. Dort lernst du
+      an Puppe und Übungswächter, was du brauchst. Dann hebt sich ein Gitter zur Siegelkammer. Tritt auf das
+      Siegel der Eidritter, und tief unten brüllt etwas. Die Gruft bebt, die Risse glühen auf, und
+      <b>der Boden bricht ein</b>. Wer die Einführung nicht braucht, beginnt gleich unten.
+    </td>
+  </tr>
+  <tr>
     <td>
       <h3>Kämpfe, die man lesen kann</h3>
       Kurz vor jedem Treffer glühen die Augen der Gegner auf, dann blitzt ein Stern. Das ist dein
@@ -61,18 +70,18 @@ Finale, das eine Tür offen lässt.
       parieren, dann heißt es ausweichen. Dazu kommen Rückenstich, Sturzangriff aus der Höhe,
       Lock-on mit Zielwechsel und Trefferstopp, der jedem Schlag Gewicht gibt.
     </td>
+    <td width="52%"><img src="docs/media/parry.gif" alt="Parade und kritischer Stoß" width="460"></td>
   </tr>
   <tr>
+    <td width="52%"><img src="docs/media/dash.gif" alt="Dash mit Nachbildern durch den Angriff eines Skelettritters" width="460"></td>
     <td>
       <h3>Ein Dash, der sich wie einer anfühlt</h3>
       Explosiver Antritt, Körper in der Bewegung, leuchtende <b>Nachbilder</b> in der Spur. Solange
       du unverwundbar bist, schimmert die Figur bläulich, das Zeitfenster ist sichtbar statt geraten.
       Ausdauer entscheidet über jeden Angriff, jede Parade und jeden Dash.
     </td>
-    <td width="52%"><img src="docs/media/dash.gif" alt="Dash mit Nachbildern durch den Angriff eines Skelettritters" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/knives.gif" alt="Ein Wurfmesser reißt den Knochenseher aus seinem Zauber" width="460"></td>
     <td>
       <h3>Klinge im Wurf</h3>
       <b>Wurfmesser</b> holen Zauberer aus dem Konzept, wecken schlafende Skelette einzeln statt die
@@ -80,8 +89,10 @@ Finale, das eine Tür offen lässt.
       erwachen, bevor sie zubeißt. Doch der Vorrat ist endlich: Nachschub tragen nur die Gebeine,
       die du erschlägst, und der Gurt fasst nicht mehr als zehn.
     </td>
+    <td width="52%"><img src="docs/media/knives.gif" alt="Ein Wurfmesser reißt den Knochenseher aus seinem Zauber" width="460"></td>
   </tr>
   <tr>
+    <td width="52%"><img src="docs/media/secret.gif" alt="Eine Scheinmauer zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
     <td>
       <h3>Eine Gruft voller Geheimnisse</h3>
       Manche Mauern lügen. Ein ganz leichter Glutschimmer verrät sie, und ein Schlag lässt sie
@@ -89,18 +100,18 @@ Finale, das eine Tür offen lässt.
       Seite öffnet, und eine Truhe, die man besser nicht öffnet. Gefundene
       <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Flakon oder eine härtere Klinge.
     </td>
-    <td width="52%"><img src="docs/media/secret.gif" alt="Eine Scheinmauer zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich von seiner Beute" width="460"></td>
     <td>
       <h3>Bosse mit Auftritt</h3>
       <b>Hrodgar, der Grabschänder</b> sitzt auf der Beute aus den Gräbern, die er hüten sollte, und
       erhebt sich brüllend mit zwei Äxten. Ab halber Kraft gerät er in Raserei. Hinter einem
       verschlossenen Kerkertor wartet er, mit eigener Musik, und er trägt etwas, das ihm nicht gehört.
     </td>
+    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich von seiner Beute" width="460"></td>
   </tr>
   <tr>
+    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
     <td>
       <h3>Ein Eid, der dich begleitet</h3>
       Mitten in der Gruft sitzt <b>Ser Aldric</b>, halb tot an der Galerietreppe, gebunden an diese
@@ -108,15 +119,25 @@ Finale, das eine Tür offen lässt.
       goldenes Rufzeichen: Glut formt Aldrics Umriss, er erhebt sich, zieht das Schwert und folgt dir
       in den letzten Kampf. Allein zu gehen bleibt erlaubt.
     </td>
-    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gefallenen Wächter, der in Zorn gerät und springt" width="460"></td>
+    <td>
+      <h3>Ein Thron hinter dem Nebel</h3>
+      Der <b>Thronsaal</b> ist eine eigene Welt, abgeschlossen hinter Mauern, einem vergitterten Fenster und
+      einem Torbogen voller Nebel. Drinnen brennen keine Fackeln. Aschebedeckter Stein mit glühenden Rissen,
+      tiefrote Banner, die Rüstungen gefallener Eidritter, ein Feld zerbrochener Klingen. Durch das offene
+      Dach fallen Asche und Mondlicht auf den Thron. Darauf sitzt der Wächter. Er erwacht, brüllt und
+      <b>springt herab</b>.
+    </td>
+    <td width="52%"><img src="docs/media/throne.gif" alt="Durch den Nebel in den Thronsaal: Der Wächter erwacht im Lichtfall auf seinem Thron und brüllt" width="460"></td>
+  </tr>
+  <tr>
+    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gefallenen Wächter, der in Zorn gerät; die Glutrisse im Boden lodern auf" width="460"></td>
     <td>
       <h3>Der Gefallene Wächter</h3>
-      Hinter dem Nebel erwacht er in einer Zwischensequenz aus seiner Starre. Er wechselt seine Ziele,
-      wenn Aldric an deiner Seite kämpft. Bei halber Kraft dehnt sich die Zeit, die Feuerschalen lodern
-      auf, die Musik wird härter, und er entfesselt Sprungangriffe, Wirbelschläge und ruft die Toten herbei.
+      Er wechselt seine Ziele, wenn Aldric an deiner Seite kämpft. Bei halber Kraft dehnt sich die Zeit,
+      <b>die Glutrisse im Boden lodern auf</b>, die Musik wird härter, und er entfesselt Sprungangriffe,
+      Wirbelschläge und ruft die Toten herbei.
     </td>
   </tr>
   <tr>
@@ -129,7 +150,17 @@ Finale, das eine Tür offen lässt.
     </td>
     <td width="52%"><img src="docs/media/inventory.gif" alt="Inventar mit Schnellleiste, Ringen und Detailtafel, bedient mit dem PlayStation-Controller" width="460"></td>
   </tr>
+  <tr>
+    <td width="52%"><img src="docs/media/still_slots.jpg" alt="Spiel laden: zehn Plätze, rechts die Tafel mit Ort, Spielzeit, Durchgang und Toden" width="460"></td>
+    <td>
+      <h3>Zehn Figuren, zehn Geschichten</h3>
+      <b>Spielstände wie in Elden Ring:</b> zehn Plätze, jeder mit Stufe, Ort, Spielzeit, Durchgang und
+      Toden auf einen Blick. „Fortsetzen“ bringt dich zurück zum letzten Stand. Gelöscht und überschrieben
+      wird nur nach Nachfrage, und ein durchgespielter Stand führt in Neues Spiel+.
+    </td>
+  </tr>
 </table>
+
 
 ## Galerie
 
@@ -137,12 +168,17 @@ Finale, das eine Tür offen lässt.
   <tr>
     <td><img src="docs/media/still_hrodgar.jpg" alt="Hrodgar brüllt in seiner Kammer" width="300"></td>
     <td><img src="docs/media/still_mimic.jpg" alt="Die Gierige Truhe schnappt zu" width="300"></td>
-    <td><img src="docs/media/still_boss.jpg" alt="Der Gefallene Wächter in Phase zwei" width="300"></td>
+    <td><img src="docs/media/still_boss.jpg" alt="Der Gefallene Wächter in Phase zwei, die Glutrisse im Boden lodern" width="300"></td>
   </tr>
   <tr>
     <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="300"></td>
     <td><img src="docs/media/still_secret.jpg" alt="Die verborgene Kapelle im Mondlicht" width="300"></td>
     <td><img src="docs/media/still_aldric.jpg" alt="Ser Aldric erhebt sich als goldener Phantomritter" width="300"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/media/still_seal.jpg" alt="Die Siegelkammer in der Gruft des Erwachens, kurz bevor der Boden bricht" width="300"></td>
+    <td><img src="docs/media/still_throne.jpg" alt="Der Gefallene Wächter auf seinem Thron im Lichtfall" width="300"></td>
+    <td><img src="docs/media/still_parry.jpg" alt="Der Stern blitzt: der Moment für die Parade" width="300"></td>
   </tr>
 </table>
 
@@ -162,12 +198,15 @@ Finale, das eine Tür offen lässt.
   Verschlungenen, Neues Spiel+
 - **Ausrüstung:** Inventar wie in Elden Ring mit Reitern, Detailtafel und Lore; Schnellleiste mit vier
   frei anordenbaren Plätzen, die man im Kampf durchrotiert
-- **Inszenierung:** erzählte Intro-Cinematic, Boss-Auftritte, Zeitlupe beim Tod, Abspann mit
-  Teaser und Bilanz der Reise
+- **Inszenierung:** erzählte Intro-Cinematic, der Einsturz der Gruft des Erwachens, Boss-Auftritte
+  (der Wächter springt von seinem Thron), Zeitlupe beim Tod, Abspann mit Teaser und Bilanz der Reise
 - **Atmosphäre:** Mondlicht in Lichtschächten, Bodennebel je Gebiet, echte Steinoberflächen,
-  flackernde Fackeln, Raumhall nach Raumgröße, Schritte je nach Untergrund, Orchestermusik
-- **Einführung:** spielbares, geführtes Tutorial mit Tastenhinweisen für Tastatur oder Gamepad,
-  jederzeit überspringbar
+  flackernde Fackeln, ein Thronsaal mit eigener Farbwelt, Glutrissen und Wind statt Musik,
+  Raumhall nach Raumgröße, Schritte je nach Untergrund, Orchestermusik
+- **Einführung:** ein eigener kleiner Ort, die Gruft des Erwachens, mit geführtem Tutorial und
+  Tastenhinweisen für Tastatur oder Gamepad; jederzeit überspringbar
+- **Spielstände:** zehn Plätze wie in Elden Ring, mit Tafel (Ort, Spielzeit, Durchgang, Tode),
+  Löschen und Überschreiben nur nach Nachfrage
 - **Controller:** Xbox, PlayStation und Steam Deck werden erkannt; überall erscheinen die passenden
   Tastensymbole. Belegung wie in Elden Ring
 - **Komfort:** frei belegbare Tasten, Pausemenü mit Steuerungsübersicht für das gerade benutzte
