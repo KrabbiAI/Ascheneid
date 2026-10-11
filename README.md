@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.7.2-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.0-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <img src="docs/media/trailer.gif" alt="Parade, Dash, Scheinmauer, Hrodgar, Aldrics Rückkehr, der Gefallene Wächter" width="760">
+  <img src="docs/media/trailer.gif" alt="Parade, Dash, Wurfmesser, Scheinmauer, Hrodgar, Aldrics Rückkehr, der Gefallene Wächter" width="760">
 </p>
 
 ---
@@ -72,7 +72,16 @@ Finale, das eine Tür offen lässt.
     <td width="52%"><img src="docs/media/dash.gif" alt="Dash mit Nachbildern durch den Angriff eines Skelettritters" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/secret.gif" alt="Eine Scheinmauer zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
+    <td width="52%"><img src="docs/media/knives.gif" alt="Ein Wurfmesser reißt den Knochenseher aus seinem Zauber" width="460"></td>
+    <td>
+      <h3>Klinge im Wurf</h3>
+      <b>Wurfmesser</b> holen Zauberer aus dem Konzept, wecken schlafende Skelette einzeln statt die
+      ganze Gruppe, decken Scheinmauern aus sicherer Entfernung auf und lassen eine gewisse Truhe
+      erwachen, bevor sie zubeißt. Doch der Vorrat ist endlich: Nachschub tragen nur die Gebeine,
+      die du erschlägst, und der Gurt fasst nicht mehr als zehn.
+    </td>
+  </tr>
+  <tr>
     <td>
       <h3>Eine Gruft voller Geheimnisse</h3>
       Manche Mauern lügen. Ein ganz leichter Glutschimmer verrät sie, und ein Schlag lässt sie
@@ -80,18 +89,18 @@ Finale, das eine Tür offen lässt.
       Seite öffnet, und eine Truhe, die man besser nicht öffnet. Gefundene
       <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Flakon oder eine härtere Klinge.
     </td>
+    <td width="52%"><img src="docs/media/secret.gif" alt="Eine Scheinmauer zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
   </tr>
   <tr>
+    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich von seiner Beute" width="460"></td>
     <td>
       <h3>Bosse mit Auftritt</h3>
       <b>Hrodgar, der Grabschänder</b> sitzt auf der Beute aus den Gräbern, die er hüten sollte, und
       erhebt sich brüllend mit zwei Äxten. Ab halber Kraft gerät er in Raserei. Hinter einem
       verschlossenen Kerkertor wartet er, mit eigener Musik, und er trägt etwas, das ihm nicht gehört.
     </td>
-    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich von seiner Beute" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
     <td>
       <h3>Ein Eid, der dich begleitet</h3>
       Mitten in der Gruft sitzt <b>Ser Aldric</b>, halb tot an der Galerietreppe, gebunden an diese
@@ -99,15 +108,26 @@ Finale, das eine Tür offen lässt.
       goldenes Rufzeichen: Glut formt Aldrics Umriss, er erhebt sich, zieht das Schwert und folgt dir
       in den letzten Kampf. Allein zu gehen bleibt erlaubt.
     </td>
+    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
   </tr>
   <tr>
+    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gefallenen Wächter, der in Zorn gerät und springt" width="460"></td>
     <td>
       <h3>Der Gefallene Wächter</h3>
       Hinter dem Nebel erwacht er in einer Zwischensequenz aus seiner Starre. Er wechselt seine Ziele,
       wenn Aldric an deiner Seite kämpft. Bei halber Kraft dehnt sich die Zeit, die Feuerschalen lodern
       auf, die Musik wird härter, und er entfesselt Sprungangriffe, Wirbelschläge und ruft die Toten herbei.
     </td>
-    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gefallenen Wächter, der in Zorn gerät und springt" width="460"></td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Ausrüstung wie in Elden Ring</h3>
+      Ein <b>Inventar</b> mit Reitern, Detailtafel und Lore zu jedem Stück, mit Controller, Tastatur
+      oder Maus. Ordne deine <b>Schnellleiste</b> frei und rotiere im Kampf mit einem Tastendruck
+      zwischen Schwert & Schild, Zweihänder und Wurfmessern. Ringe zeigen vorher, was sie ändern,
+      etwa der Ring, den die Gierige Truhe nicht verdauen konnte.
+    </td>
+    <td width="52%"><img src="docs/media/inventory.gif" alt="Inventar mit Schnellleiste, Ringen und Detailtafel, bedient mit dem PlayStation-Controller" width="460"></td>
   </tr>
 </table>
 
@@ -120,7 +140,7 @@ Finale, das eine Tür offen lässt.
     <td><img src="docs/media/still_boss.jpg" alt="Der Gefallene Wächter in Phase zwei" width="300"></td>
   </tr>
   <tr>
-    <td><img src="docs/media/still_parry.jpg" alt="Der Paradeblitz in den Augen eines Skeletts" width="300"></td>
+    <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="300"></td>
     <td><img src="docs/media/still_secret.jpg" alt="Die verborgene Kapelle im Mondlicht" width="300"></td>
     <td><img src="docs/media/still_aldric.jpg" alt="Ser Aldric erhebt sich als goldener Phantomritter" width="300"></td>
   </tr>
@@ -131,13 +151,17 @@ Finale, das eine Tür offen lässt.
 - **Souls-Kern:** Glutfeuer als Rastpunkte, Glutflakons, Seelen und Stufenaufstieg, Blutfleck nach
   dem Tod, Abkürzungen, auferstehende Gegner, Inschriften am Boden
 - **Kampf:** Leicht-Combo, schwerer Angriff, Parade mit lesbarem Signal, Riposte, Rückenstich,
-  Sturzangriff, Dash mit Unverwundbarkeit, Blocken, Lock-on, zwei Waffen (Schwert & Schild oder Zweihänder)
+  Sturzangriff, Dash mit Unverwundbarkeit, Blocken, Lock-on, zwei Waffen (Schwert & Schild oder Zweihänder),
+  Wurfmesser mit endlichem Vorrat (unterbrechen Zauber, locken einzelne Gegner)
 - **Gegner:** Skelettsoldaten (teils schlafend), Knochenschleicher, Skelettritter mit Schild,
   Knochenseher (Skelettmagier), die Gierige Truhe, Mini-Boss Hrodgar, Endboss mit zwei Phasen.
   Höchstens zwei Gegner greifen gleichzeitig an, die übrigen lauern
 - **Quest:** Ser Aldrics Auftrag mit Schlüssel, Kamerafahrt zum Ziel, Kerkertor und einem
   Verbündeten, der im Bosskampf mitkämpft und die Aufmerksamkeit des Wächters auf sich zieht
-- **Fortschritt:** drei Attribute, sechs Glutsplitter für Flakon oder Klinge (bis +3), Neues Spiel+
+- **Fortschritt:** drei Attribute, fünf Glutsplitter für Flakon oder Klinge (bis +3), der Ring des
+  Verschlungenen, Neues Spiel+
+- **Ausrüstung:** Inventar wie in Elden Ring mit Reitern, Detailtafel und Lore; Schnellleiste mit vier
+  frei anordenbaren Plätzen, die man im Kampf durchrotiert
 - **Inszenierung:** erzählte Intro-Cinematic, Boss-Auftritte, Zeitlupe beim Tod, Abspann mit
   Teaser und Bilanz der Reise
 - **Atmosphäre:** Mondlicht in Lichtschächten, Bodennebel je Gebiet, echte Steinoberflächen,
@@ -191,7 +215,9 @@ Symbole; wer die Steuerung vergisst, findet sie im Pausemenü.
 | Glutflakon | R | X | Quadrat |
 | Interagieren | E | Y | Dreieck |
 | Ziel fixieren / wechseln | Tab, Mausrad / Maus seitlich | R3 / rechter Stick | R3 / rechter Stick |
-| Waffe wechseln | C | Steuerkreuz rechts | Steuerkreuz rechts |
+| Schnellleiste vor / zurück | C / X, Mausrad, 1–4 | Steuerkreuz rechts / links | Steuerkreuz rechts / links |
+| Werfen (Messer in der Hand) | Linke Maustaste | RB | R1 |
+| Inventar | I | Ansicht | Create |
 | Pause | Esc | Menü | Options |
 
 Alle Tastatur- und Mausbelegungen lassen sich unter *Optionen → Steuerung* ändern.

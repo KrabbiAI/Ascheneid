@@ -4,6 +4,51 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.0] – 2026-10-11 – Klinge und Ring
+
+### Neu
+- **Wurfmesser:** ein Fernkampf-Werkzeug mit **endlichem Vorrat**.
+  - Die ersten fünf liegen auf einem Leichnam im Gang von der Gruft zur Halle.
+  - Danach gibt es Nachschub nur durch Gegner, die mit fester Wahrscheinlichkeit Messer fallen lassen:
+    Knochenschleicher 40 %, Skelettritter 25 %, Skelettsoldaten und Knochenseher 15 %.
+  - Hrodgar lässt sicher vier fallen.
+  - Der Gurt fasst höchstens 10; Drops sammelt man im Vorbeilaufen ein.
+  - **Wirkung:**
+    - wenig Schaden, unterbricht den Knochenseher beim Zaubern
+    - weckt nur den Gegner, den es trifft – schlafende Skelette lassen sich einzeln locken
+    - deckt Scheinmauern auf, zerbricht Kisten und weckt die Gierige Truhe ohne Überraschungsbiss
+  - **Zielen:** Das Messer fliegt aufs fixierte Ziel, sonst auf den nächsten Gegner (oder die nächste
+    Kiste) im Blick. Der Schild bleibt in der linken Hand, Blocken und Parieren gehen weiter.
+- **Schnellleiste wie in Minecraft:** vier Plätze für Schwert & Schild, Zweihänder und Wurfmesser.
+  - **C** bzw. **Steuerkreuz rechts** rotiert vorwärts, **X** bzw. **Steuerkreuz links** zurück; dazu
+    Mausrad und die Tasten **1–4**.
+  - Leere Plätze und Messer ohne Vorrat werden übersprungen.
+  - Beim Wechseln blendet die Leiste kurz im HUD ein; unten links steht, was man in der Hand hält.
+- **Inventar wie in Elden Ring** (**I** bzw. **Ansicht/Create**, oder über das Pausemenü):
+  - Das Spiel pausiert, der Hintergrund dunkelt weich ab.
+  - **Reiter** Ausrüstung, Gegenstände und Schätze, umschalten mit L1/R1 bzw. Q/E.
+  - **Ausrüstung:** Schnellleiste frei anordnen, Ringe anlegen. Mit der Maus geht das auch per Ziehen
+    und Ablegen.
+  - **Detailtafel:** großes Bild, Werte als Vorher → Nachher und ein Lore-Text zu jedem Gegenstand.
+  - Die Gegenstandsbilder sind aus den 3D-Modellen gerendert. Unten steht eine Tastenleiste mit den
+    Symbolen des benutzten Geräts.
+- **Ring des Verschlungenen:** −15 % Schaden durch Treffer. Die Gierige Truhe gibt ihn einmalig statt
+  ihres Glutsplitters; der Ring wird gleich angelegt.
+- Neue Inschrift am Eingang der Halle: „Ein Messer weckt nur einen.“
+
+### Änderungen
+- Es gibt jetzt fünf statt sechs Glutsplitter. Flakon oder Klinge ganz auszubauen ist eine Entscheidung.
+- Der Zweihänder liegt nach dem Fund in der Schnellleiste. Ältere Spielstände werden übernommen.
+- Der Knochenseher holt für ein einzelnes Geschoss etwas länger aus (0,8 statt 0,55 s): besser zu lesen,
+  und aus seiner Kampfdistanz lässt er sich mit einem Messer unterbrechen. Seine Salve bleibt schnell.
+
+### Technik
+- Neue Tests:
+  - **Inventar** (80 Prüfungen): Bedienung mit Controller, Tastatur und Maus; Aufbau im Bild auch im
+    Steam-Deck-Format; jeder Platz per Steuerkreuz erreichbar; Regeln der Leiste; Speichern.
+  - **Wurfmesser:** Fund, Wurf, Zielen, alle Wirkungen, Drops, Obergrenze, kein Auffüllen beim Rasten.
+- Der Ausweich- und Paradetest misst jetzt jeden Angriff zusätzlich mit Ring.
+
 ## [0.7.2] – 2026-10-11 – Der Eid des Ungebrannten
 
 ### Neu
