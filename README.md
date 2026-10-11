@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.2-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.3-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -142,7 +142,7 @@ Finale, das eine Tür offen lässt.
   </tr>
   <tr>
     <td>
-      <h3>Ausrüstung wie in Elden Ring</h3>
+      <h3>Ausrüstung mit Tiefgang</h3>
       Ein <b>Inventar</b> mit Reitern, Detailtafel und Lore zu jedem Stück, mit Controller, Tastatur
       oder Maus. Ordne deine <b>Schnellleiste</b> frei und rotiere im Kampf mit einem Tastendruck
       zwischen Schwert & Schild, Zweihänder und Wurfmessern. Ringe zeigen vorher, was sie ändern,
@@ -154,7 +154,7 @@ Finale, das eine Tür offen lässt.
     <td width="52%"><img src="docs/media/still_slots.jpg" alt="Spiel laden: zehn Plätze, rechts die Tafel mit Ort, Spielzeit, Durchgang und Toden" width="460"></td>
     <td>
       <h3>Zehn Figuren, zehn Geschichten</h3>
-      <b>Spielstände wie in Elden Ring:</b> zehn Plätze, jeder mit Stufe, Ort, Spielzeit, Durchgang und
+      <b>Zehn Spielstände</b>, jeder mit Stufe, Ort, Spielzeit, Durchgang und
       Toden auf einen Blick. „Fortsetzen“ bringt dich zurück zum letzten Stand. Gelöscht und überschrieben
       wird nur nach Nachfrage, und ein durchgespielter Stand führt in Neues Spiel+.
     </td>
@@ -196,7 +196,7 @@ Finale, das eine Tür offen lässt.
   Verbündeten, der im Bosskampf mitkämpft und die Aufmerksamkeit des Wächters auf sich zieht
 - **Fortschritt:** drei Attribute, fünf Glutsplitter für Flakon oder Klinge (bis +3), der Ring des
   Verschlungenen, Neues Spiel+
-- **Ausrüstung:** Inventar wie in Elden Ring mit Reitern, Detailtafel und Lore; Schnellleiste mit vier
+- **Ausrüstung:** Inventar mit Reitern, Detailtafel und Lore; Schnellleiste mit vier
   frei anordenbaren Plätzen, die man im Kampf durchrotiert
 - **Inszenierung:** erzählte Intro-Cinematic, der Einsturz der Gruft des Erwachens, Boss-Auftritte
   (der Wächter springt von seinem Thron), Zeitlupe beim Tod, Abspann mit Teaser und Bilanz der Reise
@@ -205,10 +205,10 @@ Finale, das eine Tür offen lässt.
   Raumhall nach Raumgröße, Schritte je nach Untergrund, Orchestermusik
 - **Einführung:** ein eigener kleiner Ort, die Gruft des Erwachens, mit geführtem Tutorial und
   Tastenhinweisen für Tastatur oder Gamepad; jederzeit überspringbar
-- **Spielstände:** zehn Plätze wie in Elden Ring, mit Tafel (Ort, Spielzeit, Durchgang, Tode),
+- **Spielstände:** zehn Plätze mit Tafel (Ort, Spielzeit, Durchgang, Tode),
   Löschen und Überschreiben nur nach Nachfrage
 - **Controller:** Xbox, PlayStation und Steam Deck werden erkannt; überall erscheinen die passenden
-  Tastensymbole. Belegung wie in Elden Ring
+  Tastensymbole. Belegung nach Soulslike-Standard
 - **Komfort:** frei belegbare Tasten, Pausemenü mit Steuerungsübersicht für das gerade benutzte
   Gerät, Grafikstufen passend zur Hardware (auch für das Steam Deck), Kamera, die nicht an Wänden
   klebt, die eigene Figur wird halb durchsichtig, wenn sie dir die Sicht auf den Gegner nimmt;
@@ -249,7 +249,7 @@ beschreibbaren Ordner liegen, etwa in *Programme*. Ältere Versionen einmal von 
 
 ### Steuerung
 
-Die Controller-Belegung folgt Elden Ring. Das Spiel erkennt den Controller und zeigt die passenden
+Die Controller-Belegung folgt dem Soulslike-Standard. Das Spiel erkennt den Controller und zeigt die passenden
 Symbole; wer die Steuerung vergisst, findet sie im Pausemenü.
 
 | Aktion | Tastatur/Maus | Xbox / Steam Deck | PlayStation |

@@ -4,6 +4,20 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.3] – 2026-10-11 – Am besten mit Controller
+
+### Neu
+- **Controller-Empfehlung beim Start:** Eine eigene Tafel in der Startsequenz empfiehlt, mit Controller zu
+  spielen. Ist schon einer angeschlossen oder läuft das Spiel auf dem Steam Deck, bestätigt sie ihn
+  („Steam Deck erkannt – du bist bereit.“), sonst nennt sie, welche erkannt werden. Tastatur und Maus
+  bleiben ausdrücklich erlaubt; jede Taste überspringt die Startsequenz wie bisher.
+
+### Änderungen
+- README, Changelog und Release-Texte beschreiben die Spielsysteme für sich, ohne andere Spiele zu nennen.
+
+### Technik
+- Der Steuerungstest prüft, dass die Tafel in der Startsequenz voll eingeblendet wird, bevor der Titel kommt.
+
 ## [0.8.2] – 2026-10-11 – Neue Versionen
 
 ### Neu
@@ -46,7 +60,7 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
 ## [0.8.1] – 2026-10-11 – Erwachen und Thron
 
 ### Neu
-- **Spielstände wie in Elden Ring:** zehn Plätze, je einer pro Figur. Einstellungen und Tastenbelegung
+- **Zehn Spielstände,** je einer pro Figur. Einstellungen und Tastenbelegung
   gelten für alle.
   - **Fortsetzen** lädt den zuletzt gespielten Stand; darunter steht, wo man weitermacht
     (Platz, Stufe, Ort, Spielzeit).
@@ -70,7 +84,7 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
     in Level 1, ohne Sturz. „Fortsetzen“ mitten in der Einführung beginnt sie in der Gruft des
     Erwachens von vorn.
 - **Der Thronsaal als eigener Ort:**
-  - **Abgetrennt wie in Dark Souls:** Statt der Balkonbrüstung eine geschlossene Wand mit einem
+  - **Klar abgetrennt:** Statt der Balkonbrüstung eine geschlossene Wand mit einem
     vergitterten Bogenfenster. Die Freitreppe führt durch ein Treppenhaus zu einem Torbogen, den die
     Nebelwand ausfüllt. Von außen gibt es keinen Blick mehr in die Arena.
   - **Eine eigene Welt:**
@@ -125,12 +139,12 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
     - deckt Scheinmauern auf, zerbricht Kisten und weckt die Gierige Truhe ohne Überraschungsbiss
   - **Zielen:** Das Messer fliegt aufs fixierte Ziel, sonst auf den nächsten Gegner (oder die nächste
     Kiste) im Blick. Der Schild bleibt in der linken Hand, Blocken und Parieren gehen weiter.
-- **Schnellleiste wie in Minecraft:** vier Plätze für Schwert & Schild, Zweihänder und Wurfmesser.
+- **Schnellleiste:** vier Plätze für Schwert & Schild, Zweihänder und Wurfmesser.
   - **C** bzw. **Steuerkreuz rechts** rotiert vorwärts, **X** bzw. **Steuerkreuz links** zurück; dazu
     Mausrad und die Tasten **1–4**.
   - Leere Plätze und Messer ohne Vorrat werden übersprungen.
   - Beim Wechseln blendet die Leiste kurz im HUD ein; unten links steht, was man in der Hand hält.
-- **Inventar wie in Elden Ring** (**I** bzw. **Ansicht/Create**, oder über das Pausemenü):
+- **Inventar mit Reitern und Detailtafel** (**I** bzw. **Ansicht/Create**, oder über das Pausemenü):
   - Das Spiel pausiert, der Hintergrund dunkelt weich ab.
   - **Reiter** Ausrüstung, Gegenstände und Schätze, umschalten mit L1/R1 bzw. Q/E.
   - **Ausrüstung:** Schnellleiste frei anordnen, Ringe anlegen. Mit der Maus geht das auch per Ziehen
@@ -176,7 +190,7 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
 - **Controller-Unterstützung:** Xbox-, PlayStation- und Steam-Deck-Controller (dazu Switch) werden
   automatisch erkannt. Hinweise, Tutorial, Optionen und Pausemenü zeigen die passenden
   **Tastensymbole** (Kenney Input Prompts, CC0).
-- **Belegung wie Elden Ring:** Kreis/B kurz tippen = Dash, gedrückt halten = Sprint; Dreieck/Y
+- **Belegung nach Soulslike-Standard:** Kreis/B kurz tippen = Dash, gedrückt halten = Sprint; Dreieck/Y
   interagiert, Quadrat/X trinkt, R1/R2 greifen an, L1 blockt, L2 pariert, R3 fixiert.
 - **Pausemenü mit Steuerung:** Esc bzw. Start hält das Spiel an, der Hintergrund dunkelt weich ab
   und verschwimmt. Rechts steht die Steuerung für das Gerät, das du gerade benutzt, mit eigener
