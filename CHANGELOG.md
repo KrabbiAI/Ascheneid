@@ -4,6 +4,45 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.2] – 2026-10-11 – Neue Versionen
+
+### Neu
+- **Updates aus dem Spiel heraus:**
+  - Beim Start schaut das Spiel im Hintergrund nach, ob es eine neue Version gibt. Der Start wartet
+    nie darauf.
+  - Gibt es eine, fragt das Titelmenü: „Ascheneid v… ist erschienen. Jetzt herunterladen?“, mit Größe
+    und **Herunterladen** oder **Später**. Ohne Zustimmung wird nichts geladen.
+  - Ein **Downloadbalken** zeigt Prozent und Megabyte. Man kann währenddessen im Menü bleiben oder
+    losspielen.
+  - Danach steht im Menü **Neu starten und aktualisieren** (Linux und Steam Deck: **Beenden und
+    aktualisieren**, damit Steam das Spiel nicht aus dem Blick verliert). Sonst wird beim Beenden
+    installiert.
+  - Jedes System bekommt sein eigenes Zip. Vor der Installation werden Größe und SHA-256-Prüfsumme
+    mit GitHub abgeglichen und der Inhalt geprüft: ein Windows-Programm für Windows, ein Linux-Programm
+    für x86_64, eine Mac-App für macOS. Ein vertauschter oder beschädigter Download wird verworfen.
+  - Spielstände und Einstellungen bleiben unberührt; Dateinamen und Verknüpfungen bleiben gleich.
+  - Nach „Später“ bleibt im Menü der Knopf **Update herunterladen**; gefragt wird erst beim nächsten
+    Start wieder.
+  - Abschalten unter *Optionen → Spiel → Nach Updates suchen* (dann keine Verbindung ins Netz).
+  - Auf dem Mac muss die App in einem beschreibbaren Ordner liegen, etwa in *Programme*; sonst gibt
+    es nur einen Hinweis.
+- **Wichtig:** Der Updater steckt ab dieser Version im Spiel. Ältere Versionen einmal von Hand durch
+  v0.8.2 ersetzen, danach geht es aus dem Spiel heraus.
+
+### Behoben
+- Inventar: Nach dem Belegen eines Platzes in der Schnellleiste hatte für einen Moment nichts den Fokus.
+  Ein Controller-Druck genau dann ging verloren; jetzt bleibt der Fokus ohne Lücke auf dem Platz.
+
+### Technik
+- Neuer **Updater-Test** (37 Prüfungen): Versionen, Wahl des Zips je System, vertauschte Zips,
+  Prüfsumme, Nachfrage und Balken im Titel, und das echte Austauschskript in einem Probeordner. Er
+  läuft in der GitHub Action unter Linux und in einem eigenen Job auf einem Mac.
+- **Windows Ende zu Ende** (`tests/updater_e2e_windows.ps1`): baut das Spiel, lässt es das neueste
+  Release vom öffentlichen Repo laden, drückt im Titel den echten Knopf „Herunterladen“, installiert,
+  startet neu und vergleicht die Dateien Byte für Byte mit dem Release.
+- Die Action bricht ab, wenn Tag und Spielversion nicht zusammenpassen. Sonst würde der Updater
+  immer wieder dieselbe Version laden.
+
 ## [0.8.1] – 2026-10-11 – Erwachen und Thron
 
 ### Neu

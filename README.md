@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.1-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.2-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -211,7 +211,8 @@ Finale, das eine Tür offen lässt.
   Tastensymbole. Belegung wie in Elden Ring
 - **Komfort:** frei belegbare Tasten, Pausemenü mit Steuerungsübersicht für das gerade benutzte
   Gerät, Grafikstufen passend zur Hardware (auch für das Steam Deck), Kamera, die nicht an Wänden
-  klebt, die eigene Figur wird halb durchsichtig, wenn sie dir die Sicht auf den Gegner nimmt
+  klebt, die eigene Figur wird halb durchsichtig, wenn sie dir die Sicht auf den Gegner nimmt;
+  Updates aus dem Spiel heraus, nach Nachfrage und mit Downloadbalken
 
 ## Spielen
 
@@ -238,6 +239,13 @@ hilft `chmod +x Ascheneid.x86_64`.
 
 **Leistung:** Das Spiel wählt beim ersten Start eine Grafikstufe passend zur Hardware. Ruckelt es
 auf einem älteren Laptop oder Mac: *Optionen → Grafik → Stufe 0*.
+
+**Updates (ab v0.8.2):** Beim Start schaut das Spiel nach, ob es eine neue Version gibt, und fragt im
+Titelmenü, ob sie geladen werden soll. Ein Balken zeigt den Download; Größe und Prüfsumme werden mit
+GitHub abgeglichen. Danach genügt *Neu starten und aktualisieren* (Linux und Steam Deck: *Beenden und
+aktualisieren*), sonst wird beim Beenden installiert. Spielstände und Einstellungen bleiben erhalten.
+Abschalten unter *Optionen → Spiel → Nach Updates suchen*. Auf dem Mac muss die App dafür in einem
+beschreibbaren Ordner liegen, etwa in *Programme*. Ältere Versionen einmal von Hand durch v0.8.2 ersetzen.
 
 ### Steuerung
 
