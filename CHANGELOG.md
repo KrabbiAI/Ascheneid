@@ -4,6 +4,18 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.4] – 2026-10-11 – Ruhige Menüs
+
+### Behoben
+- **Menüs mit dem Stick** (vor allem auf dem Steam Deck): Ein leicht ausgelenkter oder zitternder Stick
+  sprang manchmal über Einträge hinweg. Jetzt macht ein Druck genau einen Schritt; der nächste kommt erst,
+  wenn der Stick zurückgefedert ist. Hält man ihn, wiederholt sich der Schritt erst nach einer kurzen
+  Pause und dann in ruhigem Takt. Das Steuerkreuz verhält sich wie bisher.
+
+### Technik
+- Der Steuerungstest stellt den zitternden Stick nach und prüft Schritt, Pause und Wiederholung. Gegen
+  den alten Stand sprang der Fokus dabei drei Einträge weiter.
+
 ## [0.8.3] – 2026-10-11 – Am besten mit Controller
 
 ### Neu
