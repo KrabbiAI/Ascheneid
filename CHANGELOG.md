@@ -4,6 +4,64 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.5] – 2026-10-11 – Feinschliff
+
+### Neu
+- **Erfolge**, gebunden an den Spielstand (ein neuer Stand beginnt ohne, Neues Spiel+ behält sie):
+  - *Erwacht* (Einführung bestanden) · *Gierig, aber nicht hungrig genug* (Gierige Truhe) ·
+    *Der Grabschänder fällt* (Hrodgar) · *Nichts bleibt verborgen* (alle sieben Geheimnisse: drei
+    Scheinmauern und vier versteckte Truhen) · *Ein Eid, gemeinsam erfüllt* (Wächter an Aldrics Seite) ·
+    *Letzter Eid der Asche* (Wächter).
+  - Neue Erfolge meldet eine Karte, die unten rechts hereingleitet; mehrere kommen nacheinander.
+  - Übersicht im Pausemenü unter **Erfolge** (offene mit ihrer Aufgabe, bei den Geheimnissen mit
+    Zähler); die Spielstandliste zeigt die Zahl je Platz.
+- **Ser Aldric** hat eine eigene Gestalt statt der Spielerfigur: ein Eidritter im zerschlissenen,
+  aschgrauen Kapuzenmantel (gleicher Stil), mit Schwert und Wappenschild. Auch sein Phantom im Bosskampf.
+- **Update:** Der Dialog bleibt nach „Herunterladen“ offen und zeigt den Balken; ist das Update fertig,
+  steht darin direkt **Neu starten und aktualisieren** (Linux: **Beenden und aktualisieren**).
+  „Im Hintergrund weiter“ schließt ihn, der Dialog meldet sich, sobald alles bereit ist. Oben rechts
+  zeigt ein auffälliges Banner den Stand, und im Pausemenü gibt es einen Eintrag „Update …“.
+
+### Änderungen
+- **Aldric** sitzt jetzt in der ruhigen Nische mit der Fackel am Treppenabsatz, direkt neben dem
+  Kerkertor, statt oben an der Galerietreppe zwischen Knochenseher und Skelettritter. Ein eigenes Licht
+  hebt ihn vom Stein ab.
+- **Nach Hrodgars Tod** löst sich Aldric sofort in Glut auf, und sein Rufzeichen liegt gleich vor dem
+  Nebel – ohne Rast am Glutfeuer. Ein Hinweis sagt es: „Ein goldenes Zeichen glimmt vor dem Nebel.“
+- **Schlafende Gegner** lassen sich fixieren und per Zielwechsel ansteuern. Fixieren weckt sie nicht;
+  erst ein Treffer, ein Messer oder Lärm. Die getarnte Gierige Truhe bleibt unentdeckt.
+- **Balancing:** Es gibt viel weniger Seelen, jede Stufe ist eine Entscheidung.
+  - Stufen kosten 250 × 1,15^(Stufe−1) (vorher 100 × 1,12^…).
+  - Skelettsoldat 40, Knochenschleicher 55, Knochenseher 90, Skelettritter 160 Seelen; Hrodgar 1100,
+    Gierige Truhe 450, Hrodgars Hort 500.
+  - Ohne Farmen reicht es bis zum Endboss für etwa sieben Stufen (vorher rund 18). Wieder erschlagene
+    Gegner geben die Hälfte; eine ganze Runde Farmen bringt knapp eine Stufe.
+- **Optionen:** Reiter mit **LB/RB** bzw. L1/R1 (Tastatur Q/E) wechseln; der Fokus springt mit.
+
+### Behoben
+- Im Optionsreiter **Grafik** (und Steuerung) verschwanden Einträge unten aus dem Bild, die Liste
+  scrollte mit dem Controller nicht mit.
+- Nach dem Löschen aller Spielstände zeigte das Hauptmenü weiter **Fortsetzen**, das ins Leere führte.
+  Das Menü baut sich jetzt beim Zurückkehren neu auf.
+- Ein Schutthaufen hing halb über der **Abkürzungstür** am ersten Glutfeuer.
+- **Schild und Schwert** (Wandschmuck) schwebten mitten im Weg zur Schatzkammer und vor der Kammer der
+  Gierigen Truhe; in der Gruft des Erwachens standen sie vor bzw. in den Wänden. Jetzt hängen sie an
+  Wänden oder sind fort.
+- Drei Schuttbrocken und ein Tisch ohne Kollision standen auf begehbaren Wegen; man lief durch sie
+  hindurch.
+- Vier **Truhen**, die sich nicht öffnen ließen, sind durch Münzhaufen, Fässer und Kisten ersetzt. Was
+  wie eine Truhe aussieht, lässt sich öffnen.
+- Inventar: Nach dem Belegen eines Platzes der Schnellleiste fehlte für einen Moment der Fokus (fiel
+  in der CI als wackeliger Test auf).
+
+### Technik
+- Neue Tests: **Requisiten** (keine Deko-Truhen, Wandschmuck an Wänden, Türen frei, keine sperrigen
+  Teile auf den Wegen), **Balancing** (Seelen aus dem echten Level gegen die Stufenkosten), **Optionen**
+  (jeder Eintrag per Steuerkreuz erreichbar und sichtbar, LB/RB), **Erfolge** (über echte Ereignisse,
+  je Spielstand, Karte im Bild). Der Quest-Test prüft Aldrics neuen Platz und das sofortige Rufzeichen.
+- Tests und Aufnahmen gehen nie ins Netz: Außerhalb des exportierten Spiels wird ein Update-Download nur
+  vorgetäuscht.
+
 ## [0.8.4] – 2026-10-11 – Ruhige Menüs
 
 ### Behoben

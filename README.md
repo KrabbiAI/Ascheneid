@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.4-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.5-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -114,10 +114,10 @@ Finale, das eine Tür offen lässt.
     <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
     <td>
       <h3>Ein Eid, der dich begleitet</h3>
-      Mitten in der Gruft sitzt <b>Ser Aldric</b>, halb tot an der Galerietreppe, gebunden an diese
-      Steine. Er gibt dir einen Schlüssel und einen Auftrag. Wer ihn erfüllt, findet vor dem Nebel ein
-      goldenes Rufzeichen: Glut formt Aldrics Umriss, er erhebt sich, zieht das Schwert und folgt dir
-      in den letzten Kampf. Allein zu gehen bleibt erlaubt.
+      In einer Nische vor dem Kerkertor sitzt <b>Ser Aldric</b>, ein Eidritter im zerschlissenen
+      Kapuzenmantel, halb tot und an diese Steine gebunden. Er gibt dir einen Schlüssel und einen Auftrag.
+      Fällt der Grabschänder, löst er sich in Glut auf, und vor dem Nebel glimmt sein goldenes Rufzeichen:
+      Er erhebt sich, zieht das Schwert und folgt dir in den letzten Kampf. Allein zu gehen bleibt erlaubt.
     </td>
   </tr>
   <tr>
@@ -178,7 +178,7 @@ Finale, das eine Tür offen lässt.
   <tr>
     <td><img src="docs/media/still_seal.jpg" alt="Die Siegelkammer in der Gruft des Erwachens, kurz bevor der Boden bricht" width="300"></td>
     <td><img src="docs/media/still_throne.jpg" alt="Der Gefallene Wächter auf seinem Thron im Lichtfall" width="300"></td>
-    <td><img src="docs/media/still_parry.jpg" alt="Der Stern blitzt: der Moment für die Parade" width="300"></td>
+    <td><img src="docs/media/still_achievement.jpg" alt="Ein Erfolg wird freigeschaltet: Die Karte gleitet unten rechts herein" width="300"></td>
   </tr>
 </table>
 
@@ -194,8 +194,10 @@ Finale, das eine Tür offen lässt.
   Höchstens zwei Gegner greifen gleichzeitig an, die übrigen lauern
 - **Quest:** Ser Aldrics Auftrag mit Schlüssel, Kamerafahrt zum Ziel, Kerkertor und einem
   Verbündeten, der im Bosskampf mitkämpft und die Aufmerksamkeit des Wächters auf sich zieht
-- **Fortschritt:** drei Attribute, fünf Glutsplitter für Flakon oder Klinge (bis +3), der Ring des
-  Verschlungenen, Neues Spiel+
+- **Fortschritt:** drei Attribute, bei denen jede Stufe zählt, fünf Glutsplitter für Flakon oder Klinge
+  (bis +3), der Ring des Verschlungenen, Neues Spiel+
+- **Erfolge:** sechs Erfolge je Spielstand, von der Einführung bis zum Wächter; eine Karte unten rechts
+  meldet jeden neuen, die Übersicht steht im Pausemenü
 - **Ausrüstung:** Inventar mit Reitern, Detailtafel und Lore; Schnellleiste mit vier
   frei anordenbaren Plätzen, die man im Kampf durchrotiert
 - **Inszenierung:** erzählte Intro-Cinematic, der Einsturz der Gruft des Erwachens, Boss-Auftritte
@@ -205,7 +207,7 @@ Finale, das eine Tür offen lässt.
   Raumhall nach Raumgröße, Schritte je nach Untergrund, Orchestermusik
 - **Einführung:** ein eigener kleiner Ort, die Gruft des Erwachens, mit geführtem Tutorial und
   Tastenhinweisen für Tastatur oder Gamepad; jederzeit überspringbar
-- **Spielstände:** zehn Plätze mit Tafel (Ort, Spielzeit, Durchgang, Tode),
+- **Spielstände:** zehn Plätze mit Tafel (Ort, Spielzeit, Durchgang, Tode, Erfolge),
   Löschen und Überschreiben nur nach Nachfrage
 - **Controller:** Xbox, PlayStation und Steam Deck werden erkannt; überall erscheinen die passenden
   Tastensymbole. Belegung nach Soulslike-Standard
