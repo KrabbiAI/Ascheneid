@@ -9,7 +9,7 @@ Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_note
 ### Neu
 - **Neue Projektseite:** Die README ist jetzt eine Werbeseite mit Titelbild, Download-Knöpfen,
   Spielszenen als Clips und einer Galerie.
-- **Changelog:** Alle Versionen stehen jetzt gesammelt in `CHANGELOG.md`; dazu gibt es eine `ROADMAP.md`.
+- **Changelog:** Alle Versionen stehen jetzt gesammelt in `CHANGELOG.md`.
 
 ### Technik
 - **Spielfigur aufgeräumt:** `player.gd` ist von 1250 auf 870 Zeilen geschrumpft. Kamera, Effekte,

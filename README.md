@@ -178,13 +178,6 @@ auf einem älteren Laptop oder Mac: *Optionen → Grafik → Stufe 0*.
 
 Alle Tastatur- und Mausbelegungen lassen sich unter *Optionen → Steuerung* ändern.
 
-## Was kommt
-
-Als Nächstes: **Aldrics Quest**. Der sterbende Ritter am Glutfeuer schickt dich mit einem
-Schlüssel zu Hrodgar, und wer ihn bezwingt, ruft Aldric als Verbündeten in den Bosskampf. Danach folgen
-Ringe und Talismane und schließlich ein zweites Gebiet hinter dem Aschewirbel.
-→ [ROADMAP.md](ROADMAP.md) · Alle bisherigen Versionen: [CHANGELOG.md](CHANGELOG.md)
-
 ## Mitwirkende
 
 Entwickelt von **DobbyLabs** mit Claude (Anthropic), gebaut mit der [Godot Engine](https://godotengine.org).
