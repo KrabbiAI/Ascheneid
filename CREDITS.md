@@ -7,7 +7,8 @@
 ## 3D-Modelle & Animationen – CC0
 - KayKit Dungeon Remastered 1.0
 - KayKit Character Pack: Adventurers 1.0 (Ritter; Barbar als Mini-Boss Hrodgar; Schurke mit Kapuze als Ser Aldric,
-  Mantel von uns aschgrau umgefärbt)
+  Mantel von uns aschgrau umgefärbt; im Intro die Eidbrüder: zwei umgefärbte Ritter mit eigenen Aufsätzen
+  (Helmbusch, Hörnerhelm, in Blender gebaut) und der Magier, silberblau umgefärbt)
 - KayKit Character Pack: Skeletons 1.0 (u. a. Skelettmagier als Knochenseher)
 
 von Kay Lousberg – [kaylousberg.com](https://kaylousberg.com), Quelle: github.com/KayKit-Game-Assets
@@ -39,7 +40,7 @@ Nach OGG konvertiert und lautheitsnormalisiert (`assets/audio/music/`).
 - Kenney RPG Audio, Impact Sounds (u. a. Schritte auf Stein und Erde), Interface Sounds – [kenney.nl](https://kenney.nl) – CC0
 - Kampfgeräusche, Feuer, Atmosphäre, Titel- und Bossmusik (Phase 1): eigens synthetisiert
   (`tools/synth_audio.py`)
-- Aschewirbel (Brummen, Sog, Aufprall) und Mimik (Knurren, Zuschnappen, Atem): eigens mit ffmpeg
+- Aschewirbel (Brummen, Sog, Aufprall), Mimik (Knurren, Zuschnappen, Atem) und das Keuchen der Figur: eigens mit ffmpeg
   synthetisiert bzw. aus Kenney-Klängen gemischt (`assets/audio/fx/`)
 
 ## Tastensymbole – CC0

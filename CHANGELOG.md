@@ -4,6 +4,70 @@ Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die ne
 Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
 
+## [0.8.9] – 2026-10-14 – Glut und Eid
+
+### Neu
+- **Intro, neu erzählt:** Die vier am großen Feuer sind jetzt verschiedene Gestalten mit eigenen
+  Farben und Silhouetten: der Rote in geschwärztem Eisen mit Helmbusch und Zweihänder, der Bronzene
+  mit Hörnerhelm, Rundschild und Axt, der Magier des Eides in Silberblau mit Spitzhut, Kristallstab
+  und der Rosette des Eides auf der Brust, und der Ungebrannte. Als die Glut erlischt, brechen die drei
+  nacheinander zusammen und zerfallen langsam zu Asche und Glut. Nur der Ungebrannte bleibt und sinkt
+  allein am letzten Glimmen nieder: „Nur einer blieb am Feuer zurück.“
+- **Ausdauer zählt:**
+  - Jede Aktion braucht ihre volle Ausdauer (Dash 22, leichter Schlag 16, schwerer 30, Parade 10,
+    Wurfmesser 8). Kritische Stöße kosten weiterhin nichts.
+  - Wer knapp zu früh drückt, verliert die Eingabe nicht: Sie greift, sobald genug nachgeflossen ist.
+  - Wer die Leiste leer macht, ist kurz außer Atem: Die Erholung setzt später ein und läuft anfangs
+    langsamer. Wer sich die Kraft einteilt, merkt davon nichts; endloses Dashen und Schlagen geht
+    nicht mehr.
+  - Zu sehen und zu hören: Die Leiste zeigt dunkel, was bis zum nächsten Dash fehlt, und zuckt
+    grau-rot, wenn eine Aktion an der Ausdauer scheitert. Außer Atem steigen Atemwölkchen vom Helm,
+    man hört leises Keuchen, und der Bildrand dunkelt kurz ein.
+- **Alle Fässer** im Level zerbersten bei einem Hieb oder Dash, auch große Fässer, Fässchen und Stapel.
+- **Glut einschmelzen** ist am Glutfeuer ein eigener Menüpunkt. Solange Splitter etwas bewirken
+  können, flackert er wie Glut und sprüht Funken. Dahinter liegt ein eigener Bildschirm: Glutflakon
+  und **jede eigene Waffe** (auch die, die gerade nicht in der Hand liegt) mit Stufe, Schaden vorher
+  und nachher und dem Vorrat an Splittern. B/Esc führt zurück ans Feuer.
+- **Unentzündete Glutfeuer** glimmen: Restglut in der Asche, ein matter Schein und aufsteigende Funken.
+  Ein kaltes Feuer übersieht man im Dunkeln nicht mehr.
+- **Das Ende der Einführung** ist neu inszeniert:
+  - Harter Schnitt auf die Figur über dem glühenden Siegel; sie verliert den Halt.
+  - Ein Glutstoß, kurze Zeitlupe: Der Boden zerspringt in taumelnde Brocken.
+  - Die Kamera taucht der stürzenden Figur in den glühenden Abgrund hinterher, aus der Tiefe brüllt
+    der Wächter.
+
+### Änderungen
+- **Parade ohne Starre:**
+  - Während der Parade lässt sich die Figur langsam versetzen.
+  - Nach einer gelungenen Parade bricht jede Aktion den Rest sofort ab (Dash, Angriff, Riposte,
+    neue Parade). Das Fenster bleibt danach noch kurz offen, damit auch der Schlag eines zweiten
+    Gegners abprallt.
+  - Eine Fehlparade ist nach 0,42 s statt 0,6 s vorbei.
+- **Schwertklang:** Jeder Hieb klingt anders. Die Tonhöhe springt jedes Mal spürbar, nie zweimal
+  fast gleich, und die Kombo hat einen eigenen Rhythmus (hoch, tief). Auch Treffer an Gegnern und
+  Blocks variieren, große Gegner klingen dumpfer.
+- **Ser Aldric** sitzt jetzt in der Nische auf halber Strecke der Abkürzung, wo früher die Truhe stand.
+  Wer die Abkürzung nicht erkundet, verpasst ihn. Der Weg zum Kerkertor führt quer durchs Ossarium,
+  und die Kamerafahrt nach der Schlüsselübergabe folgt genau diesem Weg. Die Truhe steht nun am Ende
+  der Abkürzung vor der Tür zur Gruft, die zwei Gegner der Abkürzung bewachen ihre Enden.
+- **Knochengalerie:** Der Durchgang zum Vorhof ist doppelt so breit. Der Skelettritter wartet allein
+  oben an der Treppe; der Knochenseher steht weit dahinter und erwacht erst, wenn man ihm nahe kommt,
+  statt in den Ritterkampf zu schießen. Die Truhe mit dem Zweihänder steht in der Ecke hinter ihm.
+- **Glutfeuer im Vorhof** steht jetzt rechts neben der Freitreppe mit Blick auf den Nebel, statt
+  versteckt links dahinter.
+- **Inschriften am Boden** sind größer und heller: kräftigere Schrift, ein weicher Glutschein darunter
+  und ein paar aufsteigende Funken.
+- **Inschriften überarbeitet:**
+  - „Jenseits des Nebels …“ lag mitten in Aldrics Rufzeichen und liegt nun am Eingang des Vorhofs.
+  - Am Fuß der Galerietreppe war von Säulen die Rede, die es dort nicht gibt; jetzt warnt die
+    Inschrift vor dem Seher oben.
+  - Am Eingang der Abkürzung deutet eine Inschrift an, dass dort jemand wartet.
+
+### Behoben
+- Oben an der Galerietreppe lag noch der Stein, in dem Aldric früher halb steckte.
+- Zweihänder-Truhe und Fässer versperrten im Durchgang zum Vorhof den Weg.
+- Nach dem Sturz aus der Einführung lag ein Schuttbrocken mitten auf dem Weg zum ersten Glutfeuer.
+
 ## [0.8.5] – 2026-10-11 – Feinschliff
 
 ### Neu

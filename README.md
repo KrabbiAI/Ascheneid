@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.5-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.9-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -36,8 +36,9 @@
 <img src="docs/media/intro.jpg" alt="Die Ritter des Eides am großen Feuer" width="420" align="right">
 
 Einst brannte die Glut in allen Dingen, und die **Ritter des Eides** hüteten ihre Flamme,
-Geschlecht um Geschlecht. Dann erlosch sie. Die Ritter fielen, einer nach dem anderen. Nur der
-**Wächter** blieb auf seinem Thron, gehalten von einem Eid, der älter ist als sein Fleisch.
+Geschlecht um Geschlecht. Dann erlosch sie. Die Ritter zerfielen zu Asche, einer nach dem anderen, bis nur
+einer am Feuer zurückblieb. Der **Wächter** aber harrt auf seinem Thron aus, gehalten von einem Eid, der älter
+ist als sein Fleisch.
 
 Du erwachst als *Ungebrannter* in einem offenen Sarg, tief in der Gruft. Unter dir schläft etwas,
 das ein altes Siegel nicht mehr lange hält. Vor dir liegen Hallen voller Gebeine, Mauern, die lügen,
@@ -59,7 +60,7 @@ Finale, das eine Tür offen lässt.
       Die Einführung ist ein eigener kleiner Ort: die <b>Gruft des Erwachens</b>. Dort lernst du
       an Puppe und Übungswächter, was du brauchst. Dann hebt sich ein Gitter zur Siegelkammer. Tritt auf das
       Siegel der Eidritter, und tief unten brüllt etwas. Die Gruft bebt, die Risse glühen auf, und
-      <b>der Boden bricht ein</b>. Wer die Einführung nicht braucht, beginnt gleich unten.
+      <b>der Boden bricht ein</b>: Du stürzt in die glühende Tiefe. Wer die Einführung nicht braucht, beginnt gleich unten.
     </td>
   </tr>
   <tr>
@@ -98,7 +99,7 @@ Finale, das eine Tür offen lässt.
       Manche Mauern lügen. Ein ganz leichter Glutschimmer verrät sie, und ein Schlag lässt sie
       zu Asche zerfallen. Dahinter liegen verborgene Kapellen, eine Abkürzung, die man erst von der anderen
       Seite öffnet, und eine Truhe, die man besser nicht öffnet. Gefundene
-      <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Flakon oder eine härtere Klinge.
+      <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Flakon oder eine härtere Waffe.
     </td>
   </tr>
   <tr>
@@ -114,7 +115,7 @@ Finale, das eine Tür offen lässt.
     <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
     <td>
       <h3>Ein Eid, der dich begleitet</h3>
-      In einer Nische vor dem Kerkertor sitzt <b>Ser Aldric</b>, ein Eidritter im zerschlissenen
+      In einer Nische der Abkürzung, die man leicht übersieht, sitzt <b>Ser Aldric</b>, ein Eidritter im zerschlissenen
       Kapuzenmantel, halb tot und an diese Steine gebunden. Er gibt dir einen Schlüssel und einen Auftrag.
       Fällt der Grabschänder, löst er sich in Glut auf, und vor dem Nebel glimmt sein goldenes Rufzeichen:
       Er erhebt sich, zieht das Schwert und folgt dir in den letzten Kampf. Allein zu gehen bleibt erlaubt.
@@ -186,7 +187,7 @@ Finale, das eine Tür offen lässt.
 
 - **Souls-Kern:** Glutfeuer als Rastpunkte, Glutflakons, Seelen und Stufenaufstieg, Blutfleck nach
   dem Tod, Abkürzungen, auferstehende Gegner, Inschriften am Boden
-- **Kampf:** Leicht-Combo, schwerer Angriff, Parade mit lesbarem Signal, Riposte, Rückenstich,
+- **Kampf:** Leicht-Combo, schwerer Angriff, Parade mit lesbarem Signal (danach sofort weiter), Riposte, Rückenstich,
   Sturzangriff, Dash mit Unverwundbarkeit, Blocken, Lock-on, zwei Waffen (Schwert & Schild oder Zweihänder),
   Wurfmesser mit endlichem Vorrat (unterbrechen Zauber, locken einzelne Gegner)
 - **Gegner:** Skelettsoldaten (teils schlafend), Knochenschleicher, Skelettritter mit Schild,
@@ -194,7 +195,7 @@ Finale, das eine Tür offen lässt.
   Höchstens zwei Gegner greifen gleichzeitig an, die übrigen lauern
 - **Quest:** Ser Aldrics Auftrag mit Schlüssel, Kamerafahrt zum Ziel, Kerkertor und einem
   Verbündeten, der im Bosskampf mitkämpft und die Aufmerksamkeit des Wächters auf sich zieht
-- **Fortschritt:** drei Attribute, bei denen jede Stufe zählt, fünf Glutsplitter für Flakon oder Klinge
+- **Fortschritt:** drei Attribute, bei denen jede Stufe zählt, fünf Glutsplitter für Flakon oder Waffen
   (bis +3), der Ring des Verschlungenen, Neues Spiel+
 - **Erfolge:** sechs Erfolge je Spielstand, von der Einführung bis zum Wächter; eine Karte unten rechts
   meldet jeden neuen, die Übersicht steht im Pausemenü
