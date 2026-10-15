@@ -2,222 +2,214 @@
   <img src="docs/media/banner.jpg" alt="Ascheneid – Die Gruft des Gefallenen Wächters" width="100%">
 </p>
 
-<h3 align="center"><em>Die Glut ist verloschen. Nur die Asche erinnert sich.</em></h3>
+<h3 align="center"><em>Die Glut ist erloschen. Nur die Asche erinnert sich.</em></h3>
 
 <p align="center">
-  Ein düsteres Soulslike über einen gebrochenen Eid, eine erloschene Flamme und einen Wächter,<br>
-  der seine Gruft auch im Tod nicht verlässt. Lies den Gegner. Pariere. Steh wieder auf.
+  Ein düsteres Soulslike in einer Gruft, die ihre Toten nicht hergibt.<br>
+  Lies den Gegner. Pariere. Fall. Steh wieder auf.
 </p>
 
 <p align="center">
-  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Windows.zip"><img alt="Download für Windows" src="https://img.shields.io/badge/Windows-Demo%20herunterladen-c8541c?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Windows.zip"><img alt="Kostenlos für Windows" src="https://img.shields.io/badge/Windows-Kostenlos%20spielen-c8541c?style=for-the-badge&logo=windows&logoColor=white"></a>
   &nbsp;
-  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-macOS.zip"><img alt="Download für macOS" src="https://img.shields.io/badge/macOS-Demo%20herunterladen-8a6a3a?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-macOS.zip"><img alt="Kostenlos für macOS" src="https://img.shields.io/badge/macOS-Kostenlos%20spielen-8a6a3a?style=for-the-badge&logo=apple&logoColor=white"></a>
   &nbsp;
-  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Linux.zip"><img alt="Download für Linux und Steam Deck" src="https://img.shields.io/badge/Linux%20%2F%20Steam%20Deck-Demo%20herunterladen-4a6a7a?style=for-the-badge&logo=steamdeck&logoColor=white"></a>
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Linux.zip"><img alt="Kostenlos für Linux und Steam Deck" src="https://img.shields.io/badge/Linux%20%2F%20Steam%20Deck-Kostenlos%20spielen-4a6a7a?style=for-the-badge&logo=steamdeck&logoColor=white"></a>
 </p>
 
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/Version-0.9.0-e8a04a?style=flat-square">
-  <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
   <img alt="Controller" src="https://img.shields.io/badge/Controller-Xbox%20%C2%B7%20PlayStation%20%C2%B7%20Steam%20Deck-6b4f3a?style=flat-square">
+  <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
 </p>
 
 <p align="center">
-  <img src="docs/media/trailer.gif" alt="Der Boden bricht ein, Parade, Dash, Wurfmesser, Scheinmauer, Hrodgar, Aldrics Rückkehr, der Wächter auf seinem Thron, Phase zwei" width="760">
+  <img src="docs/media/trailer.gif" alt="Der Boden bricht ein, ein roter Angriff, Parade, eine Scheinmauer zerfällt, Hrodgar erhebt sich, Aldric folgt dem Ruf, durch den Nebel, der Gekrönte Wahn erwacht und kämpft" width="600">
 </p>
 
 ---
 
-## Worum es geht
+## Über das Spiel
 
-<img src="docs/media/intro.jpg" alt="Die Ritter des Eides am großen Feuer" width="420" align="right">
+<img src="docs/media/intro.jpg" alt="Die vier Ritter des Eides am letzten Feuer" width="440" align="right">
 
-Einst brannte die Glut in allen Dingen, und die **Ritter des Eides** hüteten ihre Flamme,
-Geschlecht um Geschlecht. Dann erlosch sie. Die Ritter zerfielen zu Asche, einer nach dem anderen, bis nur
-einer am Feuer zurückblieb. Der **Wächter** aber harrt auf seinem Thron aus, gehalten von einem Eid, der älter
-ist als sein Fleisch.
+Einst brannte die Glut in allen Dingen, und die **Ritter des Eides** hüteten ihre Flamme, Geschlecht um
+Geschlecht, Winter um Winter. Dann erlosch sie. Am letzten Feuer zerfielen die Eidbrüder zu Asche, einer
+nach dem anderen. Nur einer blieb zurück.
 
-Du erwachst als *Ungebrannter* in einem offenen Sarg, tief in der Gruft. Unter dir schläft etwas,
-das ein altes Siegel nicht mehr lange hält. Vor dir liegen Hallen voller Gebeine, Mauern, die lügen,
-eine Truhe, die atmet, und am Ende ein Nebel, hinter dem ein Thron wartet.
+Der Letzte von ihnen schwor, nicht zu weichen. Nicht vor dem Feind, nicht vor der Zeit. Tief unten in
+der Gruft harrt er noch immer auf seinem Thron aus, und was einst ein Wächter war, trägt nun eine
+gesprungene Krone.
 
-**Ascheneid** ist eine abgeschlossene Demo mit Intro-Cinematic, einer Einführung in ihrer eigenen
-kleinen Gruft, einem Gebiet voller Geheimnisse, einer Quest um einen gefallenen Ritter, einem Mini-Boss, einem zweiphasigen Endboss und einem
-Finale, das eine Tür offen lässt.
+Du erwachst als *Ungebrannter* in einem offenen Sarg. Vor dir liegen Hallen voller Gebeine, Mauern,
+die lügen, eine Truhe, die atmet, ein sterbender Ritter mit einem letzten Auftrag. Und am Ende ein
+Nebel, hinter dem ein Thron wartet.
+
+**Ascheneid** ist eine kostenlose, abgeschlossene Demo von rund 40 Minuten: mit erzähltem Intro, einer
+eigenen kleinen Einführung, einem Gebiet voller Geheimnisse, einem Mini-Boss, einem zweiphasigen Endboss
+und einem Finale, das eine Tür offen lässt.
 
 <br clear="right">
 
-## Was dich erwartet
+<p align="center">
+  <img src="docs/media/still_silhouette.jpg" alt="Vor dem Thron steht der Wächter, nur ein schwarzer Schattenriss vor Gegenlicht" width="760"><br>
+  <sub><em>„Der Letzte von ihnen schwor, nicht zu weichen – nicht vor dem Feind. Nicht vor der Zeit.“</em></sub>
+</p>
+
+## Das erwartet dich
 
 <table>
   <tr>
-    <td width="52%"><img src="docs/media/collapse.gif" alt="Auf dem Siegel glühen die Risse auf, der Boden bricht ein, die Figur erwacht unten auf dem Schutt" width="460"></td>
+    <td width="52%"><img src="docs/media/collapse.gif" alt="Die Figur tritt auf das Siegel, die Risse glühen auf, der Boden zerbricht, sie stürzt in die Tiefe und erwacht unten auf dem Schutt" width="460"></td>
     <td>
-      <h3>Ein Anfang, der dich fallen lässt</h3>
-      Die Einführung ist ein eigener kleiner Ort: die <b>Gruft des Erwachens</b>. Dort lernst du
-      an Puppe und Übungswächter, was du brauchst. Dann hebt sich ein Gitter zur Siegelkammer. Tritt auf das
-      Siegel der Eidritter, und tief unten brüllt etwas. Die Gruft bebt, die Risse glühen auf, und
-      <b>der Boden bricht ein</b>: Du stürzt in die glühende Tiefe. Wer die Einführung nicht braucht, beginnt gleich unten.
+      <h3>Der Boden gibt nach</h3>
+      Die Gruft des Erwachens bringt dir bei, was du brauchst. Dann trittst du auf das Siegel der Eidritter.
+      Tief unten brüllt etwas, die Risse glühen auf, die Platten zerspringen, und du <b>stürzt in die
+      glühende Tiefe</b>. Ab hier gibt es keinen Weg zurück.
     </td>
   </tr>
   <tr>
     <td>
-      <h3>Kämpfe, die man lesen kann</h3>
-      Kurz vor jedem Treffer glühen die Augen der Gegner auf, dann blitzt ein Stern. Das ist dein
-      Moment: Parade, Taumeln, <b>kritischer Stoß</b>. Rot blitzende Angriffe lassen sich nicht
-      parieren, dann heißt es ausweichen. Dazu kommen Rückenstich, Sturzangriff aus der Höhe,
-      Lock-on mit Zielwechsel und Trefferstopp, der jedem Schlag Gewicht gibt.
+      <h3>Lies den Gegner</h3>
+      Kurz vor jedem Hieb glühen die Augen der Gegner auf, dann blitzt ein Stern: dein Moment.
+      Eine Parade bringt sie ins Taumeln und öffnet sie für den <b>kritischen Stoß</b>. Rückenstich,
+      Sturzangriff aus der Höhe und Trefferstopp geben jedem Schlag Gewicht.
     </td>
-    <td width="52%"><img src="docs/media/parry.gif" alt="Parade und kritischer Stoß" width="460"></td>
+    <td width="52%"><img src="docs/media/parry.gif" alt="Die Augen des Skeletts glühen auf, ein Stern blitzt, Parade und kritischer Stoß" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/dash.gif" alt="Dash mit Nachbildern durch den Angriff eines Skelettritters" width="460"></td>
+    <td width="52%"><img src="docs/media/red.gif" alt="Der Skelettritter holt rot glühend aus, ein roter Kreuzblitz warnt, die Figur dasht zur Seite" width="460"></td>
     <td>
-      <h3>Ein Dash, der sich wie einer anfühlt</h3>
-      Explosiver Antritt, Körper in der Bewegung, leuchtende <b>Nachbilder</b> in der Spur. Solange
-      du unverwundbar bist, schimmert die Figur bläulich, das Zeitfenster ist sichtbar statt geraten.
-      Ausdauer entscheidet über jeden Angriff, jede Parade und jeden Dash.
+      <h3>Rot heißt: weg da</h3>
+      Manche Angriffe lassen sich nicht parieren. Dann <b>glüht die Waffe rot</b>, statt des Sterns
+      warnt ein roter Kreuzblitz, und ein tiefes Dröhnen kündigt den Schlag an. Blocken kostet viel Kraft,
+      also lieber ausweichen.
     </td>
   </tr>
   <tr>
+    <td>
+      <h3>Jede Bewegung kostet Kraft</h3>
+      Explosiver Antritt, leuchtende <b>Nachbilder</b>, und solange du unverwundbar bist, schimmert die
+      Figur bläulich: Das Zeitfenster ist sichtbar statt geraten. Doch jeder Hieb und jeder Dash zehrt an der
+      Ausdauer. Wer sich verausgabt, gerät <b>außer Atem</b> und muss verschnaufen.
+    </td>
+    <td width="52%"><img src="docs/media/dash.gif" alt="Dash mit Nachbildern durch den Angriff eines Skelettritters, danach der Gegenschlag" width="460"></td>
+  </tr>
+  <tr>
+    <td width="52%"><img src="docs/media/knives.gif" alt="Ein Wurfmesser reißt den Knochenseher aus seinem Zauber" width="460"></td>
     <td>
       <h3>Klinge im Wurf</h3>
-      <b>Wurfmesser</b> holen Zauberer aus dem Konzept, wecken schlafende Skelette einzeln statt die
-      ganze Gruppe, decken Scheinmauern aus sicherer Entfernung auf und lassen eine gewisse Truhe
-      erwachen, bevor sie zubeißt. Doch der Vorrat ist endlich: Nachschub tragen nur die Gebeine,
-      die du erschlägst, und der Gurt fasst nicht mehr als zehn.
-    </td>
-    <td width="52%"><img src="docs/media/knives.gif" alt="Ein Wurfmesser reißt den Knochenseher aus seinem Zauber" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/secret.gif" alt="Eine Scheinmauer zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
-    <td>
-      <h3>Eine Gruft voller Geheimnisse</h3>
-      Manche Mauern lügen. Ein ganz leichter Glutschimmer verrät sie, und ein Schlag lässt sie
-      zu Asche zerfallen. Dahinter liegen verborgene Kapellen, eine Abkürzung, die man erst von der anderen
-      Seite öffnet, und eine Truhe, die man besser nicht öffnet. Gefundene
-      <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Flakon oder eine härtere Waffe.
+      <b>Wurfmesser</b> reißen Zauberer aus ihrem Spruch, locken schlafende Skelette einzeln aus der
+      Gruppe und decken Scheinmauern aus sicherer Entfernung auf. Doch der Gurt fasst nur zehn, und
+      Nachschub tragen nur die Gebeine, die du erschlägst.
     </td>
   </tr>
   <tr>
     <td>
-      <h3>Bosse mit Auftritt</h3>
-      <b>Hrodgar, der Grabschänder</b> sitzt auf der Beute aus den Gräbern, die er hüten sollte, und
-      erhebt sich brüllend mit zwei Äxten. Ab halber Kraft gerät er in Raserei. Hinter einem
-      verschlossenen Kerkertor wartet er, mit eigener Musik, und er trägt etwas, das ihm nicht gehört.
+      <h3>Mauern, die lügen</h3>
+      Ein ganz leichter Glutschimmer verrät sie, ein Schlag lässt sie zu Asche zerfallen. Dahinter warten
+      verborgene Kapellen, Abkürzungen und eine Truhe, die man besser nicht öffnet. Gefundene
+      <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Schluck aus dem Flakon oder eine
+      härtere Klinge.
     </td>
-    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich von seiner Beute" width="460"></td>
+    <td width="52%"><img src="docs/media/secret.gif" alt="Ein Schlag gegen die Wand, sie zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen" width="460"></td>
+    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich in seiner Kammer von der geplünderten Beute, brüllt und greift an" width="460"></td>
+    <td>
+      <h3>Der Grabschänder</h3>
+      Hinter einem verschlossenen Kerkertor sitzt <b>Hrodgar</b> auf dem Gold aus den Gräbern, die er
+      hüten sollte. Kommst du näher, erhebt er sich brüllend mit zwei Äxten, und bei halber Kraft gerät
+      er in Raserei. Er trägt etwas, das ihm nicht gehört.
+    </td>
+  </tr>
+  <tr>
     <td>
       <h3>Ein Eid, der dich begleitet</h3>
-      In einer Nische der Abkürzung, die man leicht übersieht, sitzt <b>Ser Aldric</b>, ein Eidritter im zerschlissenen
-      Kapuzenmantel, halb tot und an diese Steine gebunden. Er gibt dir einen Schlüssel und einen Auftrag.
-      Fällt der Grabschänder, löst er sich in Glut auf, und vor dem Nebel glimmt sein goldenes Rufzeichen:
-      Er erhebt sich, zieht das Schwert und folgt dir in den letzten Kampf. Allein zu gehen bleibt erlaubt.
+      In einer leicht übersehenen Nische sitzt <b>Ser Aldric</b>, ein Eidritter, halb tot und an diese
+      Steine gebunden. Er gibt dir einen Schlüssel und einen Auftrag. Erfüllst du ihn, glimmt vor dem
+      Nebel sein goldenes Rufzeichen: Er erhebt sich als Phantom und zieht mit dir in den letzten Kampf.
+    </td>
+    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen, er erhebt sich neben der Figur" width="460"></td>
+  </tr>
+  <tr>
+    <td width="52%"><img src="docs/media/throne.gif" alt="Durch den Nebel in den dunklen Thronsaal: die Feuerschalen entflammen, in der Krone des Wächters kehrt die Glut zurück, er erwacht und brüllt" width="460"></td>
+    <td>
+      <h3>Hinter dem Nebel</h3>
+      Der Thronsaal liegt im Dunkeln. Eine Feuerschale nach der anderen entflammt, in der Krone des
+      Wächters kehrt die Glut zurück, seine Augen lodern auf. Er rammt sein Zepter in den Boden, die
+      Glutrisse brennen bis zu deinen Füßen, und er <b>springt herab</b>.
     </td>
   </tr>
   <tr>
     <td>
-      <h3>Ein Thron hinter dem Nebel</h3>
-      Der <b>Thronsaal</b> ist eine eigene Welt, abgeschlossen hinter Mauern, einem vergitterten Fenster und
-      einem Torbogen voller Nebel. Drinnen brennen keine Fackeln. Aschebedeckter Stein mit glühenden Rissen,
-      tiefrote Banner, die Rüstungen gefallener Eidritter, ein Feld zerbrochener Klingen. Durch das offene
-      Dach fallen Asche und Mondlicht auf den Thron. Davor steht der Wächter, reglos, das Haupt gesenkt. Die
-      Feuerschalen entflammen eine nach der anderen, in seiner Krone kehrt die Glut zurück, er rammt sein
-      Zepter in den Boden, brüllt und <b>springt herab</b>.
+      <h3>Der Gekrönte Wahn</h3>
+      Ein Skelettkönig mit gesprungener Krone, einem glühenden Herzen im offenen Brustkorb und dem
+      <b>Kronzepter</b> in der Hand. Bei halber Kraft dehnt sich die Zeit, der Boden lodert, und er ruft
+      die Toten herbei. Solange er brüllt und beschwört, schützt ihn ein Glutschild.
     </td>
-    <td width="52%"><img src="docs/media/throne.gif" alt="Durch den Nebel in den Thronsaal: die Feuerschalen entflammen, in der Krone des Wächters kehrt die Glut zurück, er erwacht und brüllt" width="460"></td>
-  </tr>
-  <tr>
     <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gekrönten Wahn, der in Zorn gerät; ein Glutschild umhüllt ihn" width="460"></td>
-    <td>
-      <h3>Der Gefallene Wächter – der Gekrönte Wahn</h3>
-      Ein Skelettkönig mit gesprungener Krone, gebrochenem Dornenkranz und einem glühenden Herzen im
-      offenen Brustkorb; er führt das <b>Kronzepter</b>. Er wechselt seine Ziele, wenn Aldric an deiner Seite kämpft. Bei halber Kraft dehnt sich die Zeit,
-      <b>die Glutrisse im Boden lodern auf</b>, die Musik wird härter, und er entfesselt Sprungangriffe,
-      Wirbelschläge und ruft die Toten herbei – während er brüllt und beschwört, schützt ihn ein Glutschild.
-    </td>
   </tr>
   <tr>
-    <td>
-      <h3>Ausrüstung mit Tiefgang</h3>
-      Ein <b>Inventar</b> mit Reitern, Detailtafel und Lore zu jedem Stück, mit Controller, Tastatur
-      oder Maus. Ordne deine <b>Schnellleiste</b> frei und rotiere im Kampf mit einem Tastendruck
-      zwischen Schwert & Schild, Zweihänder und Wurfmessern. Ringe zeigen vorher, was sie ändern,
-      etwa der Ring, den die Gierige Truhe nicht verdauen konnte.
-    </td>
     <td width="52%"><img src="docs/media/inventory.gif" alt="Inventar mit Schnellleiste, Ringen und Detailtafel, bedient mit dem PlayStation-Controller" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/still_slots.jpg" alt="Spiel laden: zehn Plätze, rechts die Tafel mit Ort, Spielzeit, Durchgang und Toden" width="460"></td>
     <td>
-      <h3>Zehn Figuren, zehn Geschichten</h3>
-      <b>Zehn Spielstände</b>, jeder mit Stufe, Ort, Spielzeit, Durchgang und
-      Toden auf einen Blick. „Fortsetzen“ bringt dich zurück zum letzten Stand. Gelöscht und überschrieben
-      wird nur nach Nachfrage, und ein durchgespielter Stand führt in Neues Spiel+.
+      <h3>Ausrüstung mit Geschichte</h3>
+      Jedes Stück hat seine eigene Lore. Wechsle im Kampf mit einem Tastendruck zwischen Schwert und
+      Schild, Zweihänder und Wurfmessern, lege den Ring an, den die Gierige Truhe nicht verdauen konnte,
+      und bring deine Figur in <b>Neues Spiel+</b>.
     </td>
   </tr>
 </table>
-
 
 ## Galerie
 
 <table>
   <tr>
-    <td><img src="docs/media/still_hrodgar.jpg" alt="Hrodgar brüllt in seiner Kammer" width="300"></td>
-    <td><img src="docs/media/still_mimic.jpg" alt="Die Gierige Truhe schnappt zu" width="300"></td>
-    <td><img src="docs/media/still_boss.jpg" alt="Der Gekrönte Wahn in Phase zwei, umhüllt vom Glutschild, Aldric an der Seite" width="300"></td>
+    <td><img src="docs/media/still_seal.jpg" alt="Auf dem Siegel glühen die Risse auf, kurz bevor der Boden bricht" width="220"></td>
+    <td><img src="docs/media/still_red.jpg" alt="Ein roter Angriff: Der Skelettritter glüht rot, die Figur dasht davon" width="220"></td>
+    <td><img src="docs/media/still_hrodgar.jpg" alt="Hrodgar in der Kammer des Grabschänders" width="220"></td>
+    <td><img src="docs/media/still_mimic.jpg" alt="Die Gierige Truhe schnappt zu" width="220"></td>
   </tr>
   <tr>
-    <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="300"></td>
-    <td><img src="docs/media/still_secret.jpg" alt="Die verborgene Kapelle im Mondlicht" width="300"></td>
-    <td><img src="docs/media/still_aldric.jpg" alt="Ser Aldric erhebt sich als goldener Phantomritter" width="300"></td>
+    <td><img src="docs/media/still_secret.jpg" alt="Die verborgene Kapelle im Mondlicht" width="220"></td>
+    <td><img src="docs/media/still_aldric.jpg" alt="Ser Aldric erhebt sich als goldener Phantomritter" width="220"></td>
+    <td><img src="docs/media/still_throne.jpg" alt="Der Gekrönte Wahn erwacht: Glut in Krone und Augen" width="220"></td>
+    <td><img src="docs/media/still_boss.jpg" alt="Der Gekrönte Wahn in Phase zwei, umhüllt vom Glutschild, Aldric an der Seite" width="220"></td>
   </tr>
   <tr>
-    <td><img src="docs/media/still_seal.jpg" alt="Die Siegelkammer in der Gruft des Erwachens, kurz bevor der Boden bricht" width="300"></td>
-    <td><img src="docs/media/still_throne.jpg" alt="Der Gekrönte Wahn erwacht: Glut in Krone und Augen" width="300"></td>
-    <td><img src="docs/media/still_achievement.jpg" alt="Ein Erfolg wird freigeschaltet: Die Karte gleitet unten rechts herein" width="300"></td>
+    <td><img src="docs/media/still_forge.jpg" alt="Am Glutfeuer: Glut einschmelzen, für den Flakon oder eine Waffe" width="220"></td>
+    <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="220"></td>
+    <td><img src="docs/media/still_slots.jpg" alt="Zehn Spielstände mit Ort, Spielzeit, Durchgang und Toden" width="220"></td>
+    <td><img src="docs/media/still_achievement.jpg" alt="Ein Erfolg wird freigeschaltet" width="220"></td>
   </tr>
 </table>
 
-## Alles auf einen Blick
+## Auf einen Blick
 
-- **Souls-Kern:** Glutfeuer als Rastpunkte, Glutflakons, Seelen und Stufenaufstieg, Blutfleck nach
-  dem Tod, Abkürzungen, auferstehende Gegner, Inschriften am Boden
-- **Kampf:** Leicht-Combo, schwerer Angriff, Parade mit lesbarem Signal (danach sofort weiter), Riposte, Rückenstich,
-  Sturzangriff, Dash mit Unverwundbarkeit, Blocken, Lock-on, zwei Waffen (Schwert & Schild oder Zweihänder),
-  Wurfmesser mit endlichem Vorrat (unterbrechen Zauber, locken einzelne Gegner)
-- **Gegner:** Skelettsoldaten (teils schlafend), Knochenschleicher, Skelettritter mit Schild,
-  Knochenseher (Skelettmagier), die Gierige Truhe, Mini-Boss Hrodgar, Endboss mit zwei Phasen.
-  Höchstens zwei Gegner greifen gleichzeitig an, die übrigen lauern
-- **Quest:** Ser Aldrics Auftrag mit Schlüssel, Kamerafahrt zum Ziel, Kerkertor und einem
-  Verbündeten, der im Bosskampf mitkämpft und die Aufmerksamkeit des Wächters auf sich zieht
-- **Fortschritt:** drei Attribute, bei denen jede Stufe zählt, fünf Glutsplitter für Flakon oder Waffen
-  (bis +3), der Ring des Verschlungenen, Neues Spiel+
-- **Erfolge:** sechs Erfolge je Spielstand, von der Einführung bis zum Wächter; eine Karte unten rechts
-  meldet jeden neuen, die Übersicht steht im Pausemenü
-- **Ausrüstung:** Inventar mit Reitern, Detailtafel und Lore; Schnellleiste mit vier
-  frei anordenbaren Plätzen, die man im Kampf durchrotiert
-- **Inszenierung:** erzählte Intro-Cinematic, der Einsturz der Gruft des Erwachens, Boss-Auftritte
-  (der Wächter springt von seinem Thron), Zeitlupe beim Tod, Abspann mit Teaser und Bilanz der Reise
-- **Atmosphäre:** Mondlicht in Lichtschächten, Bodennebel je Gebiet, echte Steinoberflächen,
-  flackernde Fackeln, ein Thronsaal mit eigener Farbwelt, Glutrissen und Wind statt Musik,
-  Raumhall nach Raumgröße, Schritte je nach Untergrund, Orchestermusik
-- **Einführung:** ein eigener kleiner Ort, die Gruft des Erwachens, mit geführtem Tutorial und
-  Tastenhinweisen für Tastatur oder Gamepad; jederzeit überspringbar
-- **Spielstände:** zehn Plätze mit Tafel (Ort, Spielzeit, Durchgang, Tode, Erfolge),
-  Löschen und Überschreiben nur nach Nachfrage
-- **Controller:** Xbox, PlayStation und Steam Deck werden erkannt; überall erscheinen die passenden
-  Tastensymbole. Belegung nach Soulslike-Standard
-- **Komfort:** frei belegbare Tasten, Pausemenü mit Steuerungsübersicht für das gerade benutzte
-  Gerät, Grafikstufen passend zur Hardware (auch für das Steam Deck), Kamera, die nicht an Wänden
-  klebt, die eigene Figur wird halb durchsichtig, wenn sie dir die Sicht auf den Gegner nimmt;
-  Updates aus dem Spiel heraus, nach Nachfrage und mit Downloadbalken
+- **Kämpfe, die man lesen kann:** Parade mit klarem Signal, kritische Stöße, Rückenstich, Sturzangriff,
+  Dash mit sichtbarer Unverwundbarkeit, rote Angriffe, denen man ausweichen muss
+- **Zwei Waffen und Wurfmesser,** im Kampf per Schnellleiste durchrotiert
+- **Glutfeuer, Seelen, Blutfleck:** Rasten heilt und weckt die Toten, Stufen machen dich stärker, wer fällt,
+  holt seine Seelen zurück
+- **Eine Gruft voller Geheimnisse:** Scheinmauern, Abkürzungen, eine Truhe, die beißt, und Inschriften am Boden
+- **Zwei Bosse mit Auftritt** und ein Verbündeter, den du in den letzten Kampf rufen kannst
+- **Zehn Spielstände, sechs Erfolge** je Spielstand und Neues Spiel+
+- **Mit Controller gedacht:** Xbox, PlayStation und Steam Deck werden erkannt, überall erscheinen die
+  passenden Tastensymbole; Tastatur und Maus frei belegbar
+- **Läuft auch unterwegs:** Grafikstufen passend zur Hardware, eine eigene für das Steam Deck; Updates
+  kommen auf Nachfrage direkt im Spiel
+
+## Systemanforderungen
+
+| | Mindestens | Empfohlen |
+|---|---|---|
+| **System** | Windows 10 (64 Bit), macOS 11, Linux (x86_64), Steam Deck | Windows 11, macOS 13 |
+| **Grafik** | Integrierte Grafik mit Vulkan (Mac: Metal) | Eigene Grafikkarte |
+| **Arbeitsspeicher** | 4 GB | 8 GB |
+| **Speicherplatz** | ca. 200 MB | ca. 200 MB |
+| **Eingabe** | Tastatur und Maus | Controller (Xbox, PlayStation oder Steam Deck) |
 
 ## Spielen
 
@@ -245,12 +237,12 @@ hilft `chmod +x Ascheneid.x86_64`.
 **Leistung:** Das Spiel wählt beim ersten Start eine Grafikstufe passend zur Hardware. Ruckelt es
 auf einem älteren Laptop oder Mac: *Optionen → Grafik → Stufe 0*.
 
-**Updates (ab v0.8.2):** Beim Start schaut das Spiel nach, ob es eine neue Version gibt, und fragt im
-Titelmenü, ob sie geladen werden soll. Ein Balken zeigt den Download; Größe und Prüfsumme werden mit
-GitHub abgeglichen. Danach genügt *Neu starten und aktualisieren* (Linux und Steam Deck: *Beenden und
-aktualisieren*), sonst wird beim Beenden installiert. Spielstände und Einstellungen bleiben erhalten.
-Abschalten unter *Optionen → Spiel → Nach Updates suchen*. Auf dem Mac muss die App dafür in einem
-beschreibbaren Ordner liegen, etwa in *Programme*. Ältere Versionen einmal von Hand durch v0.8.2 ersetzen.
+**Updates:** Beim Start schaut das Spiel nach einer neuen Version und fragt im Titelmenü, ob sie geladen
+werden soll. Ein Balken zeigt den Download, Größe und Prüfsumme werden mit GitHub abgeglichen. Danach
+genügt *Neu starten und aktualisieren* (Linux und Steam Deck: *Beenden und aktualisieren*), sonst wird beim
+Beenden installiert. Spielstände und Einstellungen bleiben erhalten. Abschalten unter *Optionen → Spiel →
+Nach Updates suchen*. Auf dem Mac muss die App dafür in einem beschreibbaren Ordner liegen, etwa in
+*Programme*. Versionen vor v0.8.2 einmal von Hand ersetzen.
 
 ### Steuerung
 
