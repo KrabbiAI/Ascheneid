@@ -1,8 +1,7 @@
 # Changelog
 
 Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die neueste Version oben.
-Die Downloads jeder Version liegen unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
-Die Texte der GitHub-Releases entstehen aus diesem Dokument (`tools/release_notes.sh <version>`).
+Die aktuelle Version gibt es unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 
 ## [0.8.9] – 2026-10-14 – Glut und Eid
 
