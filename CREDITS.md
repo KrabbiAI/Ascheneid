@@ -9,7 +9,8 @@
 - KayKit Character Pack: Adventurers 1.0 (Ritter; Barbar als Mini-Boss Hrodgar; Schurke mit Kapuze als Ser Aldric,
   Mantel von uns aschgrau umgefärbt; im Intro die Eidbrüder: zwei umgefärbte Ritter mit eigenen Aufsätzen
   (Helmbusch, Hörnerhelm, in Blender gebaut) und der Magier, silberblau umgefärbt)
-- KayKit Character Pack: Skeletons 1.0 (u. a. Skelettmagier als Knochenseher)
+- KayKit Character Pack: Skeletons 1.0 (u. a. Skelettmagier als Knochenseher; der Endboss als Gekrönter Wahn mit
+  eigener Krone, aufgebrochener Brust, Kronzepter und umgefärbtem Atlas, in Blender gebaut)
 
 von Kay Lousberg – [kaylousberg.com](https://kaylousberg.com), Quelle: github.com/KayKit-Game-Assets
 

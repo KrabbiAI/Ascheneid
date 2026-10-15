@@ -3,6 +3,47 @@
 Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die neueste Version oben.
 Die aktuelle Version gibt es unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 
+## [0.9.0] – 2026-10-15 – Der Gekrönte Wahn
+
+### Neu
+- **Der Endboss in neuer Gestalt – der Gekrönte Wahn:** Der Gefallene Wächter trägt eine schiefe,
+  gesprungene Krone mit gebrochenem Dornenkranz, sein Brustkorb ist aufgebrochen und gibt ein
+  glühendes Herz frei, und er führt das Kronzepter, einen Streitkolben mit einer Glutkugel in einer
+  gebrochenen Krone. Krone, Herz und Zepterkugel pulsieren und glühen in Phase 2 heller. Fällt er,
+  stürzen Krone und Zepter zu Boden, und seine Glut erlischt.
+- **Ein epischer Auftritt:** Nach dem Nebel liegt der Saal im Dunkeln, die Feuerschalen entzünden
+  sich nacheinander, in der Krone kehrt die Glut zurück, er hebt das Haupt, die Augen flammen auf,
+  er rammt das Zepter in den Boden, und die Glutrisse lodern bis zum Spieler auf. Dann Schrei und
+  Titelkarte: „Der Gefallene Wächter – Der Gekrönte Wahn“. Beim nächsten Versuch nur der Sprung.
+- **Glutschild:** Während er in Phase 2 übergeht und während er Skelette beschwört, ist er kurz
+  unverwundbar. Treffer prallen mit Funken an einem Glutschild ab.
+- **Im Intro** zeigt sich der Wächter vor seinem Thron nur noch als schwarzer Schattenriss vor
+  Gegenlicht – wer er wirklich ist, sieht man erst im Kampf.
+- **Rote Angriffe heben sich deutlich ab:** Holt ein Gegner zu einem nicht parierbaren Angriff aus,
+  glüht seine Waffe rot auf, statt des Sterns blitzt ein großer roter Kreuzblitz mit Ring (etwas
+  früher und länger), und ein eigener, tiefer Warnklang ertönt. Parierbare Angriffe bleiben beim
+  hellen Stern.
+- **Einführung, neuer Schritt „Rote Angriffe“:** Der Übungswächter holt rot aus. Erklärt wird, dass
+  sich rote Angriffe nicht parieren lassen und Blocken viel Kraft kostet; geschafft ist der Schritt
+  mit einem Dash durch den Hieb. Zur Bewährung mischt er danach beides.
+- **Gegenstände mit Bild:** Die Meldung „Gegenstand erhalten“ zeigt links das Symbol des Gegenstands
+  (Glutsplitter, Zweihänder, Ring, Wurfmesser, Schlüssel, Seelen).
+- Entwicklermenü hinzugefügt.
+
+### Änderungen
+- **Endboss härter:** 1250 statt 950 Leben, alle Angriffe richten ein Fünftel mehr Schaden an, und in
+  Phase 2 ruft er zweimal je drei Skelette herbei (bei 40 % und bei 18 %).
+- **Aldrics Kamerafahrt** ist ruhiger und professioneller: auf Augenhöhe mit Blick geradeaus statt
+  auf den Boden, langsamer und gleichmäßig, mit weichem Anfang; zurück zur Figur geht es per
+  Schwarzblende.
+- **Am Ende der Einführung** steht die Figur genau mittig auf der Siegelplatte, wenn sie einbricht.
+
+### Behoben
+- Aldrics Rufzeichen lag halb auf der Oberkante der Freitreppe; es liegt jetzt mittig auf ebenem Boden.
+- Fünf Inschriften am Boden ragten in Wände (am Fuß der Galerietreppe, im Vorhof, in der Halle, vor der
+  Schatzkammer und in der Siegelkammer der Einführung). Ein Test prüft jetzt jede Leuchtfläche auf
+  ebenen, freien Boden.
+
 ## [0.8.9] – 2026-10-14 – Glut und Eid
 
 ### Neu

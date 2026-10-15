@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-0.8.9-e8a04a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-0.9.0-e8a04a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
   <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
@@ -127,18 +127,20 @@ Finale, das eine Tür offen lässt.
       Der <b>Thronsaal</b> ist eine eigene Welt, abgeschlossen hinter Mauern, einem vergitterten Fenster und
       einem Torbogen voller Nebel. Drinnen brennen keine Fackeln. Aschebedeckter Stein mit glühenden Rissen,
       tiefrote Banner, die Rüstungen gefallener Eidritter, ein Feld zerbrochener Klingen. Durch das offene
-      Dach fallen Asche und Mondlicht auf den Thron. Darauf sitzt der Wächter. Er erwacht, brüllt und
-      <b>springt herab</b>.
+      Dach fallen Asche und Mondlicht auf den Thron. Davor steht der Wächter, reglos, das Haupt gesenkt. Die
+      Feuerschalen entflammen eine nach der anderen, in seiner Krone kehrt die Glut zurück, er rammt sein
+      Zepter in den Boden, brüllt und <b>springt herab</b>.
     </td>
-    <td width="52%"><img src="docs/media/throne.gif" alt="Durch den Nebel in den Thronsaal: Der Wächter erwacht im Lichtfall auf seinem Thron und brüllt" width="460"></td>
+    <td width="52%"><img src="docs/media/throne.gif" alt="Durch den Nebel in den Thronsaal: die Feuerschalen entflammen, in der Krone des Wächters kehrt die Glut zurück, er erwacht und brüllt" width="460"></td>
   </tr>
   <tr>
-    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gefallenen Wächter, der in Zorn gerät; die Glutrisse im Boden lodern auf" width="460"></td>
+    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gekrönten Wahn, der in Zorn gerät; ein Glutschild umhüllt ihn" width="460"></td>
     <td>
-      <h3>Der Gefallene Wächter</h3>
-      Er wechselt seine Ziele, wenn Aldric an deiner Seite kämpft. Bei halber Kraft dehnt sich die Zeit,
+      <h3>Der Gefallene Wächter – der Gekrönte Wahn</h3>
+      Ein Skelettkönig mit gesprungener Krone, gebrochenem Dornenkranz und einem glühenden Herzen im
+      offenen Brustkorb; er führt das <b>Kronzepter</b>. Er wechselt seine Ziele, wenn Aldric an deiner Seite kämpft. Bei halber Kraft dehnt sich die Zeit,
       <b>die Glutrisse im Boden lodern auf</b>, die Musik wird härter, und er entfesselt Sprungangriffe,
-      Wirbelschläge und ruft die Toten herbei.
+      Wirbelschläge und ruft die Toten herbei – während er brüllt und beschwört, schützt ihn ein Glutschild.
     </td>
   </tr>
   <tr>
@@ -169,7 +171,7 @@ Finale, das eine Tür offen lässt.
   <tr>
     <td><img src="docs/media/still_hrodgar.jpg" alt="Hrodgar brüllt in seiner Kammer" width="300"></td>
     <td><img src="docs/media/still_mimic.jpg" alt="Die Gierige Truhe schnappt zu" width="300"></td>
-    <td><img src="docs/media/still_boss.jpg" alt="Der Gefallene Wächter in Phase zwei, die Glutrisse im Boden lodern" width="300"></td>
+    <td><img src="docs/media/still_boss.jpg" alt="Der Gekrönte Wahn in Phase zwei, umhüllt vom Glutschild, Aldric an der Seite" width="300"></td>
   </tr>
   <tr>
     <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="300"></td>
@@ -178,7 +180,7 @@ Finale, das eine Tür offen lässt.
   </tr>
   <tr>
     <td><img src="docs/media/still_seal.jpg" alt="Die Siegelkammer in der Gruft des Erwachens, kurz bevor der Boden bricht" width="300"></td>
-    <td><img src="docs/media/still_throne.jpg" alt="Der Gefallene Wächter auf seinem Thron im Lichtfall" width="300"></td>
+    <td><img src="docs/media/still_throne.jpg" alt="Der Gekrönte Wahn erwacht: Glut in Krone und Augen" width="300"></td>
     <td><img src="docs/media/still_achievement.jpg" alt="Ein Erfolg wird freigeschaltet: Die Karte gleitet unten rechts herein" width="300"></td>
   </tr>
 </table>
