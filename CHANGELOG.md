@@ -3,6 +3,34 @@
 Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die neueste Version oben.
 Die aktuelle Version gibt es unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 
+## [1.0.0] – 2026-10-15 – Das erste Kapitel
+
+Ascheneid 1.0: die Gruft des Gefallenen Wächters als abgeschlossenes erstes Kapitel.
+
+### Neu
+- **Das Urteil der Krone:** Der Wächter hat schon in Phase 1 einen roten Angriff. Er reißt das Kronzepter
+  über den Kopf und schmettert es herab; parieren geht nicht, seitlich ausweichen schon, und danach bleibt
+  ein Fenster zum Zurückschlagen. Er kommt zufällig zwischendurch und sicher, sobald man ihn zweimal in Folge
+  pariert hat – wer nur pariert, muss jetzt auch ausweichen.
+- **Ser Aldric erneuert seinen Eid:** Brüllt der Wächter in seine zweite Phase, antwortet Aldric, reckt das
+  Schwert und schöpft einmal neue Kraft. So erlebt er den Sieg fast immer mit, samt Gruß und Abschied.
+
+### Änderungen
+- **Endkampf ausgewogener:** 1050 statt 1250 Leben, Grundschaden statt 20 % Aufschlag, und in Phase 2 ruft
+  der Wächter zweimal zwei Skelette statt zweimal drei. Fordernd, aber auch für Spieler fair, die nicht
+  jede Parade treffen.
+- **Rote Angriffe des Wächters sind unübersehbar:** Holt er zu einem nicht parierbaren Angriff aus, glüht
+  er vom ersten Moment an am ganzen Körper rot, samt Krone und Kronzepter. Das Urteil der Krone holt dabei
+  länger aus (1,44 Sekunden, in Phase 2 1,22).
+- **Keine Truhe mit dem Zweihänder mehr vor dem Boss:** Weitere Nahkampfwaffen kommen in einem späteren
+  Kapitel. Wer den Zweihänder schon hat, behält ihn.
+
+### Behoben
+- **Einsturz der Gruft:** Statt feiner Staubkörner fielen große graue Scheiben vor die Kamera und
+  verdeckten den Sturz. Jetzt rieselt feiner Staub, und der Blick auf die fallende Figur bleibt frei.
+- **Der Einsturz lässt sich wieder überspringen:** Wie bei allen Zwischensequenzen genügt es, eine beliebige
+  Taste gedrückt zu halten.
+
 ## [0.9.0] – 2026-10-15 – Der Gekrönte Wahn
 
 ### Neu
