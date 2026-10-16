@@ -3,6 +3,42 @@
 Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die neueste Version oben.
 Die aktuelle Version gibt es unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 
+## [1.1.0] – 2026-10-17 – Das Vergessene Refugium
+
+Der Sieg über den Wächter ist nicht mehr das Ende: Der Aschewirbel trägt dich an einen Ort zwischen den Orten.
+
+### Neu
+- **Das Vergessene Refugium:** ein verwunschener Friedhof unter Sternen und einem riesigen Blutmond. Ein
+  gepflasterter Weg führt zwischen Gräbern, Gruften und toten Bäumen hindurch, Laternen glimmen im Bodennebel,
+  und am Ende wartet eine Kathedrale. Hier gibt es keine Gegner, nur Stille, eine ferne Glocke und eine eigene,
+  ruhige Musik.
+- **Dobby, der Imp:** Du erwachst, und über dir beugt sich ein kleiner Kerl mit großen Augen – Hüter der
+  Schlüssel, Bewahrer der Geheimnisse und gelegentlich zuständig für die Unkrautentfernung. Er führt dich zur
+  Kathedrale, wartet, wenn du trödelst, und hat zu allem etwas zu sagen. Schlagen kannst du ihn. Er beschwert
+  sich nur.
+- **Das große Tor:** In der Kathedrale steht ein versiegeltes Tor mit drei leeren Fassungen. Drei Steine
+  fehlen, verstreut in Welten, die längst hätten verschwinden sollen. Eine Questanzeige zeigt dir das
+  aktuelle Ziel.
+- **Das Portal zu den Eishöhlen:** Über einer Portalsäule schwebt ein eisblaues Portal. Berühre es, und
+  du erfährst, was hinter dem Eis wartet. Die Eishöhlen selbst folgen im nächsten Kapitel.
+- **Ein neues Glutfeuer** in der Kathedrale. Im Refugium kann dir nichts geschehen: Wer herunterfällt, steht
+  einfach wieder auf sicherem Boden.
+- **Art-Pack für die Steam-Bibliothek:** Wer Ascheneid als Nicht-Steam-Spiel auf dem Steam Deck oder am PC
+  spielt, findet Capsule, Wide Capsule, Hero, Logo und Icon im Ordner `docs/media/steam`.
+
+### Änderungen
+- **Dialoge lassen sich in Ruhe lesen:** Ein Tastendruck zeigt die Zeile sofort ganz, erst der nächste
+  schaltet weiter.
+- **Optionen besser bedienbar:** Die gewählte Zeile leuchtet golden, Schieberegler haben einen großen, hellen
+  Griff. Du siehst sofort, welcher Regler gerade aktiv ist.
+- **Neues Spiel+ entfällt:** Durchgespielte Spielstände laden direkt weiter und tragen ihre Markierung ◆.
+  Alte Spielstände laden ohne Fehler.
+
+### Behoben
+- Nach dem Sieg über den Wächter konnte das Spiel bei sehr niedriger Bildrate im Sog des Aschewirbels hängen
+  bleiben.
+- In Zwischensequenzen lief die Figur manchmal auf der Stelle, statt zu stehen.
+
 ## [1.0.0] – 2026-10-15 – Das erste Kapitel
 
 Ascheneid 1.0: die Gruft des Gefallenen Wächters als abgeschlossenes erstes Kapitel.

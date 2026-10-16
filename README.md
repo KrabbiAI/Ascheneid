@@ -5,7 +5,7 @@
 <h3 align="center"><em>Die Glut ist erloschen. Nur die Asche erinnert sich.</em></h3>
 
 <p align="center">
-  Ein düsteres Soulslike in einer Gruft, die ihre Toten nicht hergibt.<br>
+  Ein düsteres Soulslike in einer Gruft, die ihre Toten nicht hergibt – und an einem Ort, der dich danach erwartet.<br>
   Lies den Gegner. Pariere. Fall. Steh wieder auf.
 </p>
 
@@ -18,8 +18,8 @@
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-1.0.0-e8a04a?style=flat-square">
-  <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2040%20Minuten-6b4f3a?style=flat-square">
+  <img alt="Version" src="https://img.shields.io/badge/Version-1.1.0-e8a04a?style=flat-square">
+  <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2050%20Minuten-6b4f3a?style=flat-square">
   <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
   <img alt="Controller" src="https://img.shields.io/badge/Controller-Xbox%20%C2%B7%20PlayStation%20%C2%B7%20Steam%20Deck-6b4f3a?style=flat-square">
   <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
@@ -47,9 +47,10 @@ Du erwachst als *Ungebrannter* in einem offenen Sarg. Vor dir liegen Hallen voll
 die lügen, eine Truhe, die atmet, ein sterbender Ritter mit einem letzten Auftrag. Und am Ende ein
 Nebel, hinter dem ein Thron wartet.
 
-**Ascheneid 1.0** ist das erste abgeschlossene Kapitel – kostenlos, rund 40 Minuten lang: mit erzähltem Intro,
-einer eigenen kleinen Einführung, einem Gebiet voller Geheimnisse, einem Mini-Boss, einem zweiphasigen
-Endboss und einem Finale, das eine Tür offen lässt.
+**Ascheneid 1.1** ist kostenlos und rund 50 Minuten lang: ein abgeschlossenes erstes Kapitel mit erzähltem
+Intro, einer eigenen kleinen Einführung, einem Gebiet voller Geheimnisse, einem Mini-Boss und einem
+zweiphasigen Endboss. Danach trägt dich der Aschewirbel ins **Vergessene Refugium**, wo die Geschichte
+weitergeht.
 
 <br clear="right">
 
@@ -58,14 +59,19 @@ Endboss und einem Finale, das eine Tür offen lässt.
   <sub><em>„Der Letzte von ihnen schwor, nicht zu weichen – nicht vor dem Feind. Nicht vor der Zeit.“</em></sub>
 </p>
 
-## Neu in 1.0
+## Neu in 1.1: Das Vergessene Refugium
 
-- **Das Urteil der Krone:** Der Wächter hat schon in Phase 1 einen roten Angriff. Er glüht am ganzen Körper
-  rot auf, während er das Kronzepter über den Kopf reißt – parieren hilft nicht, ausweichen schon.
-- **Ausgewogener Endkampf:** fordernd, aber fair – auch wer nicht jede Parade trifft, hat eine Chance.
-- **Ser Aldric erneuert seinen Eid,** wenn der Wächter in Raserei verfällt, und schöpft neue Kraft.
-- **Ein klarer Sturz:** Beim Einsturz der Gruft verdeckt kein Staubschleier mehr den Fall, und wie jede
-  Zwischensequenz lässt er sich mit einer gehaltenen Taste überspringen.
+<p align="center">
+  <img src="docs/media/still_refugium.jpg" alt="Ein gepflasterter Weg zwischen Gräbern und Laternen führt zur Kathedrale, hinter ihren Türmen steht ein riesiger Blutmond" width="760">
+</p>
+
+- **Ein Ort zwischen den Orten:** Nach dem Sieg über den Wächter erwachst du auf einem verwunschenen Friedhof
+  unter Sternen und einem riesigen Blutmond. Keine Gegner, nur Stille, Bodennebel und eine ferne Glocke.
+- **Dobby, der Imp:** Hüter der Schlüssel, Bewahrer der Geheimnisse und gelegentlich zuständig für die
+  Unkrautentfernung. Er führt dich zur Kathedrale und hat zu allem etwas zu sagen.
+- **Das große Tor und drei verlorene Steine:** In der Kathedrale wartet ein versiegeltes Tor. Die Steine,
+  die es öffnen, liegen in anderen Welten verstreut.
+- **Das Portal zu den Eishöhlen** schimmert schon. Was dahinter liegt, erzählt das nächste Kapitel.
 
 Alle Änderungen stehen im [CHANGELOG](CHANGELOG.md).
 
@@ -166,12 +172,29 @@ Alle Änderungen stehen im [CHANGELOG](CHANGELOG.md).
     <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gekrönten Wahn, der in Zorn gerät; ein Glutschild umhüllt ihn" width="460"></td>
   </tr>
   <tr>
+    <td width="52%"><img src="docs/media/refugium.gif" alt="Dobby beugt sich über die erwachende Figur, dann führt er sie über den Friedhof zur Kathedrale unter dem Blutmond" width="460"></td>
+    <td>
+      <h3>Das Vergessene Refugium</h3>
+      Nach dem Sieg erwachst du unter einem Blutmond, und über dir beugt sich <b>Dobby</b>. Der kleine Imp
+      führt dich zwischen Gräbern und Laternen zur Kathedrale, wartet, wenn du trödelst, und beschwert sich,
+      wenn du ihn schlägst. Hier kann dir nichts geschehen.
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <h3>Das große Tor</h3>
+      Am Ende des Kirchenschiffs, zwischen zwei Feuerschalen, steht ein versiegeltes Tor mit <b>drei leeren
+      Fassungen</b>. Daneben schwebt ein eisblaues Portal. Berühre es, und die Kälte dahinter verrät dir,
+      wohin dein Weg als Nächstes führt.
+    </td>
+    <td width="52%"><img src="docs/media/gate.gif" alt="Dobby vor dem großen Tor der Kathedrale, die Kamera fährt an den Fassungen hinauf, daneben das eisblaue Portal" width="460"></td>
+  </tr>
+  <tr>
     <td width="52%"><img src="docs/media/inventory.gif" alt="Inventar mit Schnellleiste, Ringen und Detailtafel, bedient mit dem PlayStation-Controller" width="460"></td>
     <td>
       <h3>Ausrüstung mit Geschichte</h3>
       Jedes Stück hat seine eigene Lore. Wechsle im Kampf mit einem Tastendruck zwischen Schwert und
-      Schild und Wurfmessern, lege den Ring an, den die Gierige Truhe nicht verdauen konnte,
-      und bring deine Figur in <b>Neues Spiel+</b>.
+      Schild und Wurfmessern und lege den <b>Ring</b> an, den die Gierige Truhe nicht verdauen konnte.
     </td>
   </tr>
 </table>
@@ -194,8 +217,14 @@ Alle Änderungen stehen im [CHANGELOG](CHANGELOG.md).
   <tr>
     <td><img src="docs/media/still_forge.jpg" alt="Am Glutfeuer: Glut einschmelzen, für den Flakon oder eine Waffe" width="220"></td>
     <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="220"></td>
-    <td><img src="docs/media/still_slots.jpg" alt="Zehn Spielstände mit Ort, Spielzeit, Durchgang und Toden" width="220"></td>
+    <td><img src="docs/media/still_slots.jpg" alt="Zehn Spielstände mit Ort, Spielzeit und Toden" width="220"></td>
     <td><img src="docs/media/still_achievement.jpg" alt="Ein Erfolg wird freigeschaltet" width="220"></td>
+  </tr>
+  <tr>
+    <td><img src="docs/media/still_dobby.jpg" alt="Dobby beugt sich über die erwachende Figur" width="220"></td>
+    <td><img src="docs/media/still_bloodmoon.jpg" alt="Der Blutmond hinter den Türmen der Kathedrale" width="220"></td>
+    <td><img src="docs/media/still_nave.jpg" alt="Im Kirchenschiff: Säulen, Banner, Buntglas und das eisblaue Portal" width="220"></td>
+    <td><img src="docs/media/still_gate.jpg" alt="Das große Tor mit den drei Fassungen" width="220"></td>
   </tr>
 </table>
 
@@ -208,7 +237,8 @@ Alle Änderungen stehen im [CHANGELOG](CHANGELOG.md).
   holt seine Seelen zurück
 - **Eine Gruft voller Geheimnisse:** Scheinmauern, Abkürzungen, eine Truhe, die beißt, und Inschriften am Boden
 - **Zwei Bosse mit Auftritt** und ein Verbündeter, den du in den letzten Kampf rufen kannst
-- **Zehn Spielstände, sechs Erfolge** je Spielstand und Neues Spiel+
+- **Ein Ort zum Durchatmen:** das Vergessene Refugium mit Dobby, dem großen Tor und dem Weg ins nächste Kapitel
+- **Zehn Spielstände und sechs Erfolge** je Spielstand
 - **Mit Controller gedacht:** Xbox, PlayStation und Steam Deck werden erkannt, überall erscheinen die
   passenden Tastensymbole; Tastatur und Maus frei belegbar
 - **Läuft auch unterwegs:** Grafikstufen passend zur Hardware, eine eigene für das Steam Deck; Updates
@@ -242,6 +272,16 @@ Alle Änderungen stehen im [CHANGELOG](CHANGELOG.md).
 Bibliothek, im Vollbild, mit Steam-Deck-Tastensymbolen und einer Grafikstufe für den Akku
 (60 Bilder pro Sekunde, FSR). Unter Linux gilt dasselbe: entpacken, starten; startet die Datei nicht,
 hilft `chmod +x Ascheneid.x86_64`.
+
+**Steam-Bibliothek schöner machen:** Für Ascheneid als Nicht-Steam-Spiel gibt es ein passendes Art-Pack
+(Capsule, Wide Capsule, Hero, Logo und Icon) unter [`docs/media/steam`](docs/media/steam). Auf dem Steam Deck im
+Desktop-Modus in Steam: Rechtsklick auf Ascheneid → *Eigenschaften* bzw. auf das Bild → *Eigenes Bild festlegen*.
+Bequemer geht es mit einem Programm wie SteamGridDB (Decky-Plugin).
+
+<p align="center">
+  <img src="docs/media/steam/ascheneid_capsule_600x900.png" alt="Steam-Capsule: Ritter und Dobby auf dem Friedhofsweg vor der Kathedrale unter dem Blutmond, darunter der Titel" width="180">
+  <img src="docs/media/steam/ascheneid_wide_920x430.png" alt="Breite Steam-Capsule mit Titel" width="384">
+</p>
 
 **macOS:** Die App ist nicht von Apple notarisiert. Beim ersten Start: Rechtsklick auf die App →
 *Öffnen* → *Öffnen*. Hilft das nicht: Systemeinstellungen → Datenschutz & Sicherheit →
@@ -282,7 +322,8 @@ Alle Tastatur- und Mausbelegungen lassen sich unter *Optionen → Steuerung* än
 ## Mitwirkende
 
 Entwickelt von **DobbyLabs** mit Claude (Anthropic), gebaut mit der [Godot Engine](https://godotengine.org).
-Modelle von Kay Lousberg (KayKit) und Quaternius, Texturen von Poly Haven, Musik von cynicmusic,
+Modelle von Kay Lousberg (KayKit) und Quaternius, die Kathedrale von HugoHesseling, die Engelsstatue
+von Zsky, Texturen von Poly Haven, Musik von cynicmusic,
 Cethiel, yd und César da Rocha, Klänge und Tastensymbole von Kenney. Alle Quellen und Lizenzen stehen in
 [CREDITS.md](CREDITS.md).
 

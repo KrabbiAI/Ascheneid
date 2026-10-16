@@ -23,6 +23,31 @@ In Blender importiert und als GLB nach `assets/models/props/` exportiert:
 - „Throne“ – Poly by Google – **CC-BY 3.0** (poly.pizza/m/bpFCWQSs-aT,
   creativecommons.org/licenses/by/3.0)
 
+## Das Vergessene Refugium (Hub)
+In Blender importiert, angepasst und als GLB nach `assets/models/hub/` exportiert:
+- „Gravestone“ (zwei Varianten), „Grave“, „Damaged Grave“, „Crypt“, „Post Lantern“, „Iron Fence“,
+  „Damaged Iron fence“, „Fence Gate“, „Skull Candle“ – Kay Lousberg – CC0, über Poly Pizza
+  (poly.pizza/m/lrEHKjTy29, /m/ErfdU1GJSD, /m/znGrV0V80y, /m/KWtVNrHXVR, /m/iV5x01FYAl, /m/ZSQ65S4lEu,
+  /m/MDROOJeCSQ, /m/HfWdsZogtr, /m/h5P9Kuk0V5, /m/94tuTO5eJv)
+- „Dead Tree“ (zwei Varianten), „Twisted Tree“ (ohne Laub) – Quaternius – CC0, über Poly Pizza
+  (poly.pizza/m/Mcd2zYqyww, /m/oM95bD8buf, /m/8oraKn9m0x)
+- „AngelStatue“ – Zsky – **CC-BY 3.0**, über Poly Pizza (poly.pizza/m/6v4CL0nKfT,
+  creativecommons.org/licenses/by/3.0)
+- „Neo-gothic Church“ – HugoHesseling – **CC-BY 4.0**, über Sketchfab
+  (sketchfab.com/3d-models/neo-gothic-church-d514c4e08fc5436ca7f0b227e5437f9e,
+  creativecommons.org/licenses/by/4.0) – von uns ohne Treppe, mit geöffnetem Portal, gestreckt und mit
+  entsättigter, verkleinerter Textur als Kathedrale des Refugiums
+- Texturen „Forest Ground 01“ (Rob Tuytel) und „Mossy Cobblestone“ (Sơn Nguyễn) – CC0, über
+  [Poly Haven](https://polyhaven.com) (`assets/textures/hub/`, 1K)
+- Himmel mit Blutmond und Sternen, Portalschein, Buntglasfenster: eigene Shader (`assets/shaders/hub_sky.gdshader`,
+  `door_glow.gdshader`, `stained_glass.gdshader`)
+- Großes Tor und Portalsäulen: eigene Modelle, in Blender gebaut (`assets/models/hub/tor_*.glb`, `portalsaeule.glb`)
+- Musik „Refugium“ und die ferne Glocke: eigens mit ffmpeg erzeugt (die Glocke aus Kenneys „bong_001“, CC0)
+
+## Unity Asset Store
+- Dobby – „Demon Imp – Hand Painted Series“, BitGem, Unity Asset Store, Lizenz: Standard Unity Asset Store EULA
+  (Single Entity). In Blender aufbereitet (Material, Clips geteilt, Sprech-Clip ergänzt), `assets/models/dobby/`
+
 ## Texturen – CC0, über [Poly Haven](https://polyhaven.com)
 - „Rock Surface“ und „Dirt“ (Steinoberflächen der Gruft, als Detailschicht über der KayKit-Palette;
   `assets/textures/`, 1K)
