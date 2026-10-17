@@ -274,7 +274,9 @@ Bibliothek, im Vollbild, mit Steam-Deck-Tastensymbolen und einer Grafikstufe fü
 hilft `chmod +x Ascheneid.x86_64`.
 
 **Steam-Bibliothek schöner machen:** Für Ascheneid als Nicht-Steam-Spiel gibt es ein passendes Art-Pack
-(Capsule, Wide Capsule, Hero, Logo und Icon) unter [`docs/media/steam`](docs/media/steam). Auf dem Steam Deck im
+(Capsule, Wide Capsule, Hero, Logo und Icon), als Zip zum Herunterladen:
+[**Ascheneid-SteamDeck-Art.zip**](https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-SteamDeck-Art.zip)
+(einzeln unter [`docs/media/steam`](docs/media/steam)). Auf dem Steam Deck im
 Desktop-Modus in Steam: Rechtsklick auf Ascheneid → *Eigenschaften* bzw. auf das Bild → *Eigenes Bild festlegen*.
 Bequemer geht es mit einem Programm wie SteamGridDB (Decky-Plugin).
 
