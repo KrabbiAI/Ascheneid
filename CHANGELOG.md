@@ -3,6 +3,50 @@
 Alle Änderungen an **Ascheneid – Die Gruft des Gefallenen Wächters**, die neueste Version oben.
 Die aktuelle Version gibt es unter [Releases](https://github.com/KrabbiAI/Ascheneid/releases).
 
+## [1.2.0] – 2026-10-21 – Die Eishöhlen
+
+Das zweite Kapitel: Das eisblaue Portal im Refugium führt jetzt hinab in die Eishöhlen. Dazu eine von Grund auf neu
+gebaute Gruft, neue Waffen-Materialien, der Rückenstich und vieles, was das Spiel fairer und lesbarer macht.
+
+### Neu
+- **Die Eishöhlen:** ein gewachsenes Höhlensystem über neun Ebenen – von der Frostpforte über Galerien, Leitern und
+  Hängebrücken, eine verfallene Wacht, das Lager einer verschollenen Expedition und einen gefrorenen Wasserfall bis
+  hinab zum Eisdom, wo zerbrochene Schollen auf schwarzem Wasser treiben. Jedes Gebiet hat seine eigene Farbe, seine
+  Landmarke und seinen Klang; leuchtende Pilze weisen den Weg, Eiszapfen lösen sich von der Decke.
+- **Der Glutstab:** ein Zauberstab, der Feuerbälle schleudert, Eiswände schmilzt und Gegner hinter Schilden aus Eis
+  verwundbar macht. Er öffnet Geheimräume und neue Wege.
+- **Neue Gegner:** Raureifgebein, Eiswandler, Raureifwolf im Rudel, Kristallkriecher an der Decke, das Eisbollwerk
+  hinter seinem Eisschild, der Firnschrat und eine Truhe, die keine ist. Dazu Wächter, die man nicht übersehen sollte,
+  eine Nebenaufgabe um einen Magier im Eis – und hinter der Tür aus Eis wartet etwas, das dort nicht hingehört.
+- **Frost:** Eisige Angriffe füllen eine Frostleiste. Ist sie voll, erfrierst du. Ringe und Feuer helfen dagegen.
+- **Leitern, Aufzug und Abkürzungen** in den Eishöhlen; tiefe Stürze kosten Leben.
+- **Die Gruft ist neu gebaut:** Rund um das Ossarium mit seinem Knochenturm liegen Grabnischen, die Halle der Gefallenen,
+  die Ahnengalerie, eine Empore und die Kapelle der Eidritter, in der Ser Aldric wacht. Ein Fallgitter mit Kettenwinde
+  öffnet eine Abkürzung. Gegner, Schätze und Inschriften sind neu verteilt, die Gegner haben eine eigene Gestalt.
+- **Rückenstich:** Schleich dich von hinten an einen Gegner, der dich nicht bemerkt, und stich zu.
+- **Eidstahl und Glutsplitter:** Eidstahl härtet deine Waffen (bis +4), Glutsplitter geben dem Glutflakon einen Schluck
+  mehr. Am Glutfeuer heißt das Menü „Schmieden“.
+- **Reisen:** Am Friedhof des Refugiums führt ein glutroter Wirbel zurück in die Gruft, und an jedem Glutfeuer kannst du
+  ins Refugium zurückkehren. Wer ein Portal betritt, wird sichtbar hineingezogen.
+- **Das Refugium** ist gewachsen: das Feld der Eidritter mit den Schwertern der Gefallenen, der Eidhof vor der
+  Kathedrale, die Kathedrale als letzte Zuflucht, ein Bewohner am Friedhofstor und die Chronik des Eides am Obelisken.
+- **Seelenflamme:** Wo du gestorben bist, brennt eine Flamme und flüstert, bis du deine Seelen zurückholst.
+- **Erfolge** für das Refugium und die Eishöhlen, keiner davon verpassbar.
+- **Spielstände duplizieren**, ein neues Hauptmenü und die Option **Textgröße**.
+
+### Änderungen
+- **Fairere Kämpfe:** Rote Angriffe kündigen sich mit einer Warnglocke an und kommen seltener; ist zusätzlich ein roter
+  Ring zu sehen, hält kein Schild. Neue Gegner begegnen dir zuerst einzeln, Glutfeuer sind Schutzzonen.
+- **Seelen** sind von der Gruft bis zum Ende der Eishöhlen neu verteilt, für eine gleichmäßige, mittlere
+  Schwierigkeit.
+- **Lesbarkeit auf dem Steam Deck:** größere Schrift in Menüs, Dialogen und Hinweisen, Erfolge oben rechts und erst
+  nach Szenen, kurze Hinweise nacheinander statt übereinander.
+- **Parade** als ein gezielter Schildschlag; Dialoge mit Hinweis „Weiter“; Schadenszahlen (abschaltbar).
+- Spielstände, in denen das Entwicklermenü benutzt wurde, sind gekennzeichnet.
+
+### Behoben
+- Viele Korrekturen aus den Spieltests – an Kamera, Kollision, Szenen, Spielständen und Menüs.
+
 ## [1.1.0] – 2026-10-17 – Das Vergessene Refugium
 
 Der Sieg über den Wächter ist nicht mehr das Ende: Der Aschewirbel trägt dich an einen Ort zwischen den Orten.

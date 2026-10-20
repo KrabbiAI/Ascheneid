@@ -1,331 +1,104 @@
 <p align="center">
-  <img src="docs/media/banner.jpg" alt="Ascheneid – Die Gruft des Gefallenen Wächters" width="100%">
+  <img src="docs/media/banner.jpg" alt="Ascheneid" width="100%">
 </p>
 
 <h3 align="center"><em>Die Glut ist erloschen. Nur die Asche erinnert sich.</em></h3>
 
 <p align="center">
-  Ein düsteres Soulslike in einer Gruft, die ihre Toten nicht hergibt – und an einem Ort, der dich danach erwartet.<br>
-  Lies den Gegner. Pariere. Fall. Steh wieder auf.
+  <b>Ein düsteres Soulslike aus Gruft, Eis und Asche</b> – kostenlos, auf Deutsch, mit Controller gedacht und für das
+  Steam Deck gemacht.
 </p>
 
 <p align="center">
-  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Windows.zip"><img alt="Kostenlos für Windows" src="https://img.shields.io/badge/Windows-Kostenlos%20spielen-c8541c?style=for-the-badge&logo=windows&logoColor=white"></a>
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Windows.zip"><img alt="Für Windows herunterladen" src="https://img.shields.io/badge/Windows-Herunterladen-c8541c?style=for-the-badge&logo=windows&logoColor=white"></a>
   &nbsp;
-  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-macOS.zip"><img alt="Kostenlos für macOS" src="https://img.shields.io/badge/macOS-Kostenlos%20spielen-8a6a3a?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Linux.zip"><img alt="Für Linux und Steam Deck herunterladen" src="https://img.shields.io/badge/Linux%20%2F%20Steam%20Deck-Herunterladen-4a6a7a?style=for-the-badge&logo=steamdeck&logoColor=white"></a>
   &nbsp;
-  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Linux.zip"><img alt="Kostenlos für Linux und Steam Deck" src="https://img.shields.io/badge/Linux%20%2F%20Steam%20Deck-Kostenlos%20spielen-4a6a7a?style=for-the-badge&logo=steamdeck&logoColor=white"></a>
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-macOS.zip"><img alt="Für macOS herunterladen" src="https://img.shields.io/badge/macOS-Herunterladen-8a6a3a?style=for-the-badge&logo=apple&logoColor=white"></a>
 </p>
 
 <p align="center">
-  <img alt="Version" src="https://img.shields.io/badge/Version-1.1.0-e8a04a?style=flat-square">
-  <img alt="Spielzeit" src="https://img.shields.io/badge/Spielzeit-ca.%2050%20Minuten-6b4f3a?style=flat-square">
-  <img alt="Sprache" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
-  <img alt="Controller" src="https://img.shields.io/badge/Controller-Xbox%20%C2%B7%20PlayStation%20%C2%B7%20Steam%20Deck-6b4f3a?style=flat-square">
-  <img alt="Godot 4.7" src="https://img.shields.io/badge/Godot-4.7-478cbf?style=flat-square&logo=godotengine&logoColor=white">
+  <a href="https://github.com/KrabbiAI/Ascheneid/releases/latest"><img alt="Neueste Version" src="https://img.shields.io/github/v/release/Tegridy539/GodotSoulslike?label=Version&color=e8a04a&style=flat-square"></a>
+  <img alt="Kostenlos" src="https://img.shields.io/badge/Preis-kostenlos-6b4f3a?style=flat-square">
+  <img alt="Sprache Deutsch" src="https://img.shields.io/badge/Sprache-Deutsch-6b4f3a?style=flat-square">
+  <img alt="Controller: Xbox, PlayStation, Steam Deck" src="https://img.shields.io/badge/Controller-Xbox%20%C2%B7%20PlayStation%20%C2%B7%20Steam%20Deck-6b4f3a?style=flat-square">
 </p>
 
 <p align="center">
-  <img src="docs/media/trailer.gif" alt="Der Boden bricht ein, ein roter Angriff, Parade, eine Scheinmauer zerfällt, Hrodgar erhebt sich, Aldric folgt dem Ruf, durch den Nebel, der Gekrönte Wahn erwacht und kämpft" width="600">
+  <img src="docs/media/trailer.gif" alt="Kurzer Zusammenschnitt: die Gruft mit ihrem Knochenturm, eine Parade mit kritischem Stoß, ein Ausweichen durch einen rot glühenden Angriff, ein Feuerball schmilzt Eis, eine Hängebrücke in den Eishöhlen, der Friedhof unter dem Blutmond" width="960">
 </p>
 
----
+## Worum es geht
 
-## Über das Spiel
+Die Eidritter schworen, die Glut zu hüten. Die Glut ist erloschen, die Ritter sind Asche – und du erwachst in ihrer
+Gruft. Kämpfe dich durch Hallen voller Knochen, finde einen Ort zwischen den Orten und steig hinab in Höhlen aus Eis,
+in denen etwas atmet. Jeder Gegner lässt sich lesen, jeder Tod lehrt etwas, und an jedem Glutfeuer stehen die Toten
+wieder auf.
 
-<img src="docs/media/intro.jpg" alt="Die vier Ritter des Eides am letzten Feuer" width="440" align="right">
-
-Einst brannte die Glut in allen Dingen, und die **Ritter des Eides** hüteten ihre Flamme, Geschlecht um
-Geschlecht, Winter um Winter. Dann erlosch sie. Am letzten Feuer zerfielen die Eidbrüder zu Asche, einer
-nach dem anderen. Nur einer blieb zurück.
-
-Der Letzte von ihnen schwor, nicht zu weichen. Nicht vor dem Feind, nicht vor der Zeit. Tief unten in
-der Gruft harrt er noch immer auf seinem Thron aus, und was einst ein Wächter war, trägt nun eine
-gesprungene Krone.
-
-Du erwachst als *Ungebrannter* in einem offenen Sarg. Vor dir liegen Hallen voller Gebeine, Mauern,
-die lügen, eine Truhe, die atmet, ein sterbender Ritter mit einem letzten Auftrag. Und am Ende ein
-Nebel, hinter dem ein Thron wartet.
-
-**Ascheneid 1.1** ist kostenlos und rund 50 Minuten lang: ein abgeschlossenes erstes Kapitel mit erzähltem
-Intro, einer eigenen kleinen Einführung, einem Gebiet voller Geheimnisse, einem Mini-Boss und einem
-zweiphasigen Endboss. Danach trägt dich der Aschewirbel ins **Vergessene Refugium**, wo die Geschichte
-weitergeht.
-
-<br clear="right">
-
-<p align="center">
-  <img src="docs/media/still_silhouette.jpg" alt="Vor dem Thron steht der Wächter, nur ein schwarzer Schattenriss vor Gegenlicht" width="760"><br>
-  <sub><em>„Der Letzte von ihnen schwor, nicht zu weichen – nicht vor dem Feind. Nicht vor der Zeit.“</em></sub>
-</p>
-
-## Neu in 1.1: Das Vergessene Refugium
-
-<p align="center">
-  <img src="docs/media/still_refugium.jpg" alt="Ein gepflasterter Weg zwischen Gräbern und Laternen führt zur Kathedrale, hinter ihren Türmen steht ein riesiger Blutmond" width="760">
-</p>
-
-- **Ein Ort zwischen den Orten:** Nach dem Sieg über den Wächter erwachst du auf einem verwunschenen Friedhof
-  unter Sternen und einem riesigen Blutmond. Keine Gegner, nur Stille, Bodennebel und eine ferne Glocke.
-- **Dobby, der Imp:** Hüter der Schlüssel, Bewahrer der Geheimnisse und gelegentlich zuständig für die
-  Unkrautentfernung. Er führt dich zur Kathedrale und hat zu allem etwas zu sagen.
-- **Das große Tor und drei verlorene Steine:** In der Kathedrale wartet ein versiegeltes Tor. Die Steine,
-  die es öffnen, liegen in anderen Welten verstreut.
-- **Das Portal zu den Eishöhlen** schimmert schon. Was dahinter liegt, erzählt das nächste Kapitel.
-
-Alle Änderungen stehen im [CHANGELOG](CHANGELOG.md).
-
-## Das erwartet dich
+## Was dich erwartet
 
 <table>
   <tr>
-    <td width="52%"><img src="docs/media/collapse.gif" alt="Die Figur tritt auf das Siegel, die Risse glühen auf, der Boden zerbricht, sie stürzt in die Tiefe und erwacht unten auf dem Schutt" width="460"></td>
-    <td>
-      <h3>Der Boden gibt nach</h3>
-      Die Gruft des Erwachens bringt dir bei, was du brauchst. Dann trittst du auf das Siegel der Eidritter.
-      Tief unten brüllt etwas, die Risse glühen auf, die Platten zerspringen, und du <b>stürzt in die
-      glühende Tiefe</b>. Ab hier gibt es keinen Weg zurück.
+    <td width="50%" valign="top">
+      <img src="docs/media/parade.gif" alt="Ein Skelett holt aus, die Figur pariert mit dem Schild und setzt den kritischen Stoß" width="100%"><br>
+      <b>Kämpfe, die man lesen kann.</b> Pariere im richtigen Moment und setz den kritischen Stoß. Jeder Angriff
+      kündigt sich an.
+    </td>
+    <td width="50%" valign="top">
+      <img src="docs/media/ausweichen.gif" alt="Ein Gegner glüht rot auf, die Figur weicht mit einem Dash zur Seite aus" width="100%"><br>
+      <b>Rot heißt: weg da.</b> Rote Angriffe lassen sich nicht parieren – eine Warnglocke gibt dir den Takt zum
+      Ausweichen.
     </td>
   </tr>
   <tr>
-    <td>
-      <h3>Lies den Gegner</h3>
-      Kurz vor jedem Hieb glühen die Augen der Gegner auf, dann blitzt ein Stern: dein Moment.
-      Eine Parade bringt sie ins Taumeln und öffnet sie für den <b>kritischen Stoß</b>. Rückenstich,
-      Sturzangriff aus der Höhe und Trefferstopp geben jedem Schlag Gewicht.
+    <td width="50%" valign="top">
+      <img src="docs/media/glutstab.gif" alt="Ein Feuerball trifft einen Schild aus Eis, das Eis schmilzt" width="100%"><br>
+      <b>Feuer gegen Eis.</b> Der Glutstab schmilzt Eiswände und Schilde, öffnet verborgene Räume und neue Wege.
     </td>
-    <td width="52%"><img src="docs/media/parry.gif" alt="Die Augen des Skeletts glühen auf, ein Stern blitzt, Parade und kritischer Stoß" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/red.gif" alt="Der Skelettritter holt rot glühend aus, ein roter Kreuzblitz warnt, die Figur dasht zur Seite" width="460"></td>
-    <td>
-      <h3>Rot heißt: weg da</h3>
-      Manche Angriffe lassen sich nicht parieren. Dann <b>glüht die Waffe rot</b>, statt des Sterns
-      warnt ein roter Kreuzblitz, und ein tiefes Dröhnen kündigt den Schlag an. Blocken kostet viel Kraft,
-      also lieber ausweichen.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Jede Bewegung kostet Kraft</h3>
-      Explosiver Antritt, leuchtende <b>Nachbilder</b>, und solange du unverwundbar bist, schimmert die
-      Figur bläulich: Das Zeitfenster ist sichtbar statt geraten. Doch jeder Hieb und jeder Dash zehrt an der
-      Ausdauer. Wer sich verausgabt, gerät <b>außer Atem</b> und muss verschnaufen.
-    </td>
-    <td width="52%"><img src="docs/media/dash.gif" alt="Dash mit Nachbildern durch den Angriff eines Skelettritters, danach der Gegenschlag" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/knives.gif" alt="Ein Wurfmesser reißt den Knochenseher aus seinem Zauber" width="460"></td>
-    <td>
-      <h3>Klinge im Wurf</h3>
-      <b>Wurfmesser</b> reißen Zauberer aus ihrem Spruch, locken schlafende Skelette einzeln aus der
-      Gruppe und decken Scheinmauern aus sicherer Entfernung auf. Doch der Gurt fasst nur zehn, und
-      Nachschub tragen nur die Gebeine, die du erschlägst.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Mauern, die lügen</h3>
-      Ein ganz leichter Glutschimmer verrät sie, ein Schlag lässt sie zu Asche zerfallen. Dahinter warten
-      verborgene Kapellen, Abkürzungen und eine Truhe, die man besser nicht öffnet. Gefundene
-      <b>Glutsplitter</b> schmilzt du am Glutfeuer ein: für einen weiteren Schluck aus dem Flakon oder eine
-      härtere Klinge.
-    </td>
-    <td width="52%"><img src="docs/media/secret.gif" alt="Ein Schlag gegen die Wand, sie zerfällt zu Asche, dahinter eine Kapelle im Mondlicht" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/hrodgar.gif" alt="Hrodgar erhebt sich in seiner Kammer von der geplünderten Beute, brüllt und greift an" width="460"></td>
-    <td>
-      <h3>Der Grabschänder</h3>
-      Hinter einem verschlossenen Kerkertor sitzt <b>Hrodgar</b> auf dem Gold aus den Gräbern, die er
-      hüten sollte. Kommst du näher, erhebt er sich brüllend mit zwei Äxten, und bei halber Kraft gerät
-      er in Raserei. Er trägt etwas, das ihm nicht gehört.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Ein Eid, der dich begleitet</h3>
-      In einer leicht übersehenen Nische sitzt <b>Ser Aldric</b>, ein Eidritter, halb tot und an diese
-      Steine gebunden. Er gibt dir einen Schlüssel und einen Auftrag. Erfüllst du ihn, glimmt vor dem
-      Nebel sein goldenes Rufzeichen: Er erhebt sich als Phantom und zieht mit dir in den letzten Kampf. Verfällt
-      der Wächter in Raserei, erneuert Aldric seinen Eid.
-    </td>
-    <td width="52%"><img src="docs/media/aldric.gif" alt="Goldene Glut formt Ser Aldric am Rufzeichen, er erhebt sich neben der Figur" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/throne.gif" alt="Durch den Nebel in den dunklen Thronsaal: die Feuerschalen entflammen, in der Krone des Wächters kehrt die Glut zurück, er erwacht und brüllt" width="460"></td>
-    <td>
-      <h3>Hinter dem Nebel</h3>
-      Der Thronsaal liegt im Dunkeln. Eine Feuerschale nach der anderen entflammt, in der Krone des
-      Wächters kehrt die Glut zurück, seine Augen lodern auf. Er rammt sein Zepter in den Boden, die
-      Glutrisse brennen bis zu deinen Füßen, und er <b>springt herab</b>.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Der Gekrönte Wahn</h3>
-      Ein Skelettkönig mit gesprungener Krone, einem glühenden Herzen im offenen Brustkorb und dem
-      <b>Kronzepter</b> in der Hand. Bei halber Kraft dehnt sich die Zeit, der Boden lodert, und er ruft
-      die Toten herbei. Solange er brüllt und beschwört, schützt ihn ein Glutschild. Glüht er rot auf,
-      holt er zum <b>Urteil der Krone</b> aus – keine Parade hält es auf, nur ein Sprung zur Seite.
-    </td>
-    <td width="52%"><img src="docs/media/boss.gif" alt="Mit Aldric gegen den Gekrönten Wahn, der in Zorn gerät; ein Glutschild umhüllt ihn" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/refugium.gif" alt="Dobby beugt sich über die erwachende Figur, dann führt er sie über den Friedhof zur Kathedrale unter dem Blutmond" width="460"></td>
-    <td>
-      <h3>Das Vergessene Refugium</h3>
-      Nach dem Sieg erwachst du unter einem Blutmond, und über dir beugt sich <b>Dobby</b>. Der kleine Imp
-      führt dich zwischen Gräbern und Laternen zur Kathedrale, wartet, wenn du trödelst, und beschwert sich,
-      wenn du ihn schlägst. Hier kann dir nichts geschehen.
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3>Das große Tor</h3>
-      Am Ende des Kirchenschiffs, zwischen zwei Feuerschalen, steht ein versiegeltes Tor mit <b>drei leeren
-      Fassungen</b>. Daneben schwebt ein eisblaues Portal. Berühre es, und die Kälte dahinter verrät dir,
-      wohin dein Weg als Nächstes führt.
-    </td>
-    <td width="52%"><img src="docs/media/gate.gif" alt="Dobby vor dem großen Tor der Kathedrale, die Kamera fährt an den Fassungen hinauf, daneben das eisblaue Portal" width="460"></td>
-  </tr>
-  <tr>
-    <td width="52%"><img src="docs/media/inventory.gif" alt="Inventar mit Schnellleiste, Ringen und Detailtafel, bedient mit dem PlayStation-Controller" width="460"></td>
-    <td>
-      <h3>Ausrüstung mit Geschichte</h3>
-      Jedes Stück hat seine eigene Lore. Wechsle im Kampf mit einem Tastendruck zwischen Schwert und
-      Schild und Wurfmessern und lege den <b>Ring</b> an, den die Gierige Truhe nicht verdauen konnte.
+    <td width="50%" valign="top">
+      <img src="docs/media/rueckenstich.gif" alt="Die Figur schleicht sich an ein Skelett heran und sticht von hinten zu" width="100%"><br>
+      <b>Schleichen lohnt sich.</b> Wer unbemerkt von hinten kommt, trifft mit einem Rückenstich – aber nicht
+      sprinten.
     </td>
   </tr>
 </table>
 
-## Galerie
+- **Drei Orte, ein Weg:** eine Gruft voller Scheinmauern und Abkürzungen, ein stilles Refugium unter dem Blutmond und
+  die Eishöhlen mit Leitern, Hängebrücken und einem See aus zerbrochenen Schollen.
+- **Glutfeuer, Seelen, zweite Chancen:** Rasten heilt und weckt die Toten. Wer fällt, holt seine Seelen an der
+  Seelenflamme zurück.
+- **Waffen schmieden:** Eidstahl härtet deine Klinge, Glutsplitter stärken den Heiltrank. Dazu Wurfmesser, Ringe und
+  ein Verbündeter, den du in die Schlacht rufen kannst.
+- **Erfolge und zehn Spielstände:** Erfolge für jedes Gebiet, keiner davon verpassbar – und eine Chronik, die
+  festhält, was du erlebt hast.
+- **Gemacht für das Steam Deck:** passende Tastensymbole für jeden Controller, gut lesbare Schrift, eine eigene
+  Grafikstufe für den Akku – und Updates direkt im Spiel.
+
+## Bilder
 
 <table>
   <tr>
-    <td><img src="docs/media/still_seal.jpg" alt="Auf dem Siegel glühen die Risse auf, kurz bevor der Boden bricht" width="220"></td>
-    <td><img src="docs/media/still_verdict.jpg" alt="Das Urteil der Krone: Der Wächter glüht am ganzen Körper rot und reißt das Kronzepter hoch" width="220"></td>
-    <td><img src="docs/media/still_hrodgar.jpg" alt="Hrodgar in der Kammer des Grabschänders" width="220"></td>
-    <td><img src="docs/media/still_mimic.jpg" alt="Die Gierige Truhe schnappt zu" width="220"></td>
+    <td width="50%"><img src="docs/media/gruft_ossarium.jpg" alt="Das Ossarium: ein hoher Turm aus Schädeln im Fackellicht der Gruft" width="100%"></td>
+    <td width="50%"><img src="docs/media/gruft_kapelle.jpg" alt="Die Kapelle der Eidritter: Bankreihen, ein Altar im Lichtstrahl, ein alter Ritter an einem Grab" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="docs/media/still_secret.jpg" alt="Die verborgene Kapelle im Mondlicht" width="220"></td>
-    <td><img src="docs/media/still_aldric.jpg" alt="Ser Aldric erhebt sich als goldener Phantomritter" width="220"></td>
-    <td><img src="docs/media/still_throne.jpg" alt="Der Gekrönte Wahn erwacht: Glut in Krone und Augen" width="220"></td>
-    <td><img src="docs/media/still_boss.jpg" alt="Der Gekrönte Wahn in Phase zwei, umhüllt vom Glutschild, Aldric an der Seite" width="220"></td>
+    <td width="50%"><img src="docs/media/refugium_friedhof.jpg" alt="Der Friedhof des Refugiums: Schwerter der Gefallenen in Reihen unter einem riesigen Blutmond" width="100%"></td>
+    <td width="50%"><img src="docs/media/refugium_kathedrale.jpg" alt="Im Schiff der Kathedrale schwebt ein eisblaues Portal über einer Säule" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="docs/media/still_forge.jpg" alt="Am Glutfeuer: Glut einschmelzen, für den Flakon oder eine Waffe" width="220"></td>
-    <td><img src="docs/media/still_inventory.jpg" alt="Das Inventar mit Schnellleiste, Ring und Detailtafel" width="220"></td>
-    <td><img src="docs/media/still_slots.jpg" alt="Zehn Spielstände mit Ort, Spielzeit und Toden" width="220"></td>
-    <td><img src="docs/media/still_achievement.jpg" alt="Ein Erfolg wird freigeschaltet" width="220"></td>
+    <td width="50%"><img src="docs/media/eis_bruecke.jpg" alt="Eine Hängebrücke spannt sich über einen tiefen Spalt im Eis" width="100%"></td>
+    <td width="50%"><img src="docs/media/eis_eisdom.jpg" alt="Zerbrochene Eisschollen treiben auf schwarzem Wasser unter einer hohen Kuppel aus Eis" width="100%"></td>
   </tr>
   <tr>
-    <td><img src="docs/media/still_dobby.jpg" alt="Dobby beugt sich über die erwachende Figur" width="220"></td>
-    <td><img src="docs/media/still_bloodmoon.jpg" alt="Der Blutmond hinter den Türmen der Kathedrale" width="220"></td>
-    <td><img src="docs/media/still_nave.jpg" alt="Im Kirchenschiff: Säulen, Banner, Buntglas und das eisblaue Portal" width="220"></td>
-    <td><img src="docs/media/still_gate.jpg" alt="Das große Tor mit den drei Fassungen" width="220"></td>
+    <td width="50%"><img src="docs/media/eis_wacht.jpg" alt="In einer verfallenen Wachhalle sitzt eine riesige Gestalt wie Geröll vor einem Altar" width="100%"></td>
+    <td width="50%"><img src="docs/media/schmieden.jpg" alt="Am Glutfeuer: das Menü mit Aufsteigen, Schmieden und Aufstehen" width="100%"></td>
   </tr>
 </table>
 
-## Auf einen Blick
-
-- **Kämpfe, die man lesen kann:** Parade mit klarem Signal, kritische Stöße, Rückenstich, Sturzangriff,
-  Dash mit sichtbarer Unverwundbarkeit, rote Angriffe, denen man ausweichen muss
-- **Schwert und Schild, dazu Wurfmesser,** im Kampf per Schnellleiste gewechselt
-- **Glutfeuer, Seelen, Blutfleck:** Rasten heilt und weckt die Toten, Stufen machen dich stärker, wer fällt,
-  holt seine Seelen zurück
-- **Eine Gruft voller Geheimnisse:** Scheinmauern, Abkürzungen, eine Truhe, die beißt, und Inschriften am Boden
-- **Zwei Bosse mit Auftritt** und ein Verbündeter, den du in den letzten Kampf rufen kannst
-- **Ein Ort zum Durchatmen:** das Vergessene Refugium mit Dobby, dem großen Tor und dem Weg ins nächste Kapitel
-- **Zehn Spielstände und sechs Erfolge** je Spielstand
-- **Mit Controller gedacht:** Xbox, PlayStation und Steam Deck werden erkannt, überall erscheinen die
-  passenden Tastensymbole; Tastatur und Maus frei belegbar
-- **Läuft auch unterwegs:** Grafikstufen passend zur Hardware, eine eigene für das Steam Deck; Updates
-  kommen auf Nachfrage direkt im Spiel
-
-## Systemanforderungen
-
-| | Mindestens | Empfohlen |
-|---|---|---|
-| **System** | Windows 10 (64 Bit), macOS 11, Linux (x86_64), Steam Deck | Windows 11, macOS 13 |
-| **Grafik** | Integrierte Grafik mit Vulkan (Mac: Metal) | Eigene Grafikkarte |
-| **Arbeitsspeicher** | 4 GB | 8 GB |
-| **Speicherplatz** | ca. 200 MB | ca. 200 MB |
-| **Eingabe** | Tastatur und Maus | Controller (Xbox, PlayStation oder Steam Deck) |
-
-## Spielen
-
-1. Unter [**Releases**](https://github.com/KrabbiAI/Ascheneid/releases/latest) die Datei für
-   dein System herunterladen.
-2. Entpacken und starten.
+## Herunterladen und spielen
 
 | System | Datei | Start |
 |---|---|---|
-| Windows 10/11 (64 Bit) | `Ascheneid-Windows.zip` | `Ascheneid.exe` starten (`.exe` und `.pck` im selben Ordner lassen) |
-| macOS 11+ (Intel & Apple Silicon) | `Ascheneid-macOS.zip` | `Ascheneid.app` per **Rechtsklick → Öffnen** starten |
-| Linux (x86_64) & Steam Deck | `Ascheneid-Linux.zip` | `Ascheneid.x86_64` starten (`.x86_64` und `.pck` im selben Ordner lassen) |
-
-**Steam Deck:** Im Desktop-Modus die Zip herunterladen und entpacken, z. B. nach
-`~/Games/Ascheneid`. Dann in Steam *Spiele → Nicht-Steam-Spiel zur Bibliothek hinzufügen* →
-*Durchsuchen* → `Ascheneid.x86_64` wählen. Zurück im Spielmodus startet Ascheneid aus der
-Bibliothek, im Vollbild, mit Steam-Deck-Tastensymbolen und einer Grafikstufe für den Akku
-(60 Bilder pro Sekunde, FSR). Unter Linux gilt dasselbe: entpacken, starten; startet die Datei nicht,
-hilft `chmod +x Ascheneid.x86_64`.
-
-**Steam-Bibliothek schöner machen:** Für Ascheneid als Nicht-Steam-Spiel gibt es ein passendes Art-Pack
-(Capsule, Wide Capsule, Hero, Logo und Icon), als Zip zum Herunterladen:
-[**Ascheneid-SteamDeck-Art.zip**](https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-SteamDeck-Art.zip)
-(einzeln unter [`docs/media/steam`](docs/media/steam)). Auf dem Steam Deck im
-Desktop-Modus in Steam: Rechtsklick auf Ascheneid → *Eigenschaften* bzw. auf das Bild → *Eigenes Bild festlegen*.
-Bequemer geht es mit einem Programm wie SteamGridDB (Decky-Plugin).
-
-<p align="center">
-  <img src="docs/media/steam/ascheneid_capsule_600x900.png" alt="Steam-Capsule: Ritter und Dobby auf dem Friedhofsweg vor der Kathedrale unter dem Blutmond, darunter der Titel" width="180">
-  <img src="docs/media/steam/ascheneid_wide_920x430.png" alt="Breite Steam-Capsule mit Titel" width="384">
-</p>
-
-**macOS:** Die App ist nicht von Apple notarisiert. Beim ersten Start: Rechtsklick auf die App →
-*Öffnen* → *Öffnen*. Hilft das nicht: Systemeinstellungen → Datenschutz & Sicherheit →
-*Trotzdem öffnen*, oder im Terminal `xattr -cr Ascheneid.app`.
-
-**Leistung:** Das Spiel wählt beim ersten Start eine Grafikstufe passend zur Hardware. Ruckelt es
-auf einem älteren Laptop oder Mac: *Optionen → Grafik → Stufe 0*.
-
-**Updates:** Beim Start schaut das Spiel nach einer neuen Version und fragt im Titelmenü, ob sie geladen
-werden soll. Ein Balken zeigt den Download, Größe und Prüfsumme werden mit GitHub abgeglichen. Danach
-genügt *Neu starten und aktualisieren* (Linux und Steam Deck: *Beenden und aktualisieren*), sonst wird beim
-Beenden installiert. Spielstände und Einstellungen bleiben erhalten. Abschalten unter *Optionen → Spiel →
-Nach Updates suchen*. Auf dem Mac muss die App dafür in einem beschreibbaren Ordner liegen, etwa in
-*Programme*. Versionen vor v0.8.2 einmal von Hand ersetzen.
-
-### Steuerung
-
-Die Controller-Belegung folgt dem Soulslike-Standard. Das Spiel erkennt den Controller und zeigt die passenden
-Symbole; wer die Steuerung vergisst, findet sie im Pausemenü.
-
-| Aktion | Tastatur/Maus | Xbox / Steam Deck | PlayStation |
-|---|---|---|---|
-| Bewegen / Kamera | WASD / Maus | Linker / rechter Stick | Linker / rechter Stick |
-| Ausweichen (Dash) | Leertaste | B tippen | Kreis tippen |
-| Sprinten | Umschalt halten | B halten (oder L3) | Kreis halten (oder L3) |
-| Leichter / schwerer Angriff | Linke Maustaste / Q | RB / RT (Deck: R1 / R2) | R1 / R2 |
-| Blocken / Parieren | Rechte Maustaste / F | LB / LT (Deck: L1 / L2) | L1 / L2 |
-| Glutflakon | R | X | Quadrat |
-| Interagieren | E | Y | Dreieck |
-| Ziel fixieren / wechseln | Tab, Mausrad / Maus seitlich | R3 / rechter Stick | R3 / rechter Stick |
-| Schnellleiste vor / zurück | C / X, Mausrad, 1–4 | Steuerkreuz rechts / links | Steuerkreuz rechts / links |
-| Werfen (Messer in der Hand) | Linke Maustaste | RB | R1 |
-| Inventar | I | Ansicht | Create |
-| Pause | Esc | Menü | Options |
-
-Alle Tastatur- und Mausbelegungen lassen sich unter *Optionen → Steuerung* ändern.
-
-## Mitwirkende
-
-Entwickelt von **DobbyLabs** mit Claude (Anthropic), gebaut mit der [Godot Engine](https://godotengine.org).
-Modelle von Kay Lousberg (KayKit) und Quaternius, die Kathedrale von HugoHesseling, die Engelsstatue
-von Zsky, Texturen von Poly Haven, Musik von cynicmusic,
-Cethiel, yd und César da Rocha, Klänge und Tastensymbole von Kenney. Alle Quellen und Lizenzen stehen in
-[CREDITS.md](CREDITS.md).
-
+| **Windows** 10/11 (64 Bit) | [`Ascheneid-Windows.zip`](https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Windows.zip) | Entpacken, `Ascheneid.exe` starten (`.exe` und `.pck` im selben Ordner lassen) |
+| **Linux** (x86_64) und **Steam Deck** | [`Ascheneid-Linux.zip`](https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-Linux.zip) | Entpacken, `Ascheneid.x86_64` starten |
+| **macOS** 11+ (Intel und Apple Silicon) | [`Ascheneid-macOS.zip`](https://github.com/KrabbiAI/Ascheneid/releases/latest/download/Ascheneid-macOS.zip) | Entpacken, `Ascheneid.app` per Rechtsklick → *Öffnen* starten |
